@@ -1,0 +1,30 @@
+# Vivado generated files
+vivado/*.jou
+vivado/*.log
+vivado/*.str
+vivado/.Xil/
+vivado/dpdma_exdes.cache/
+vivado/dpdma_exdes.gen/
+vivado/dpdma_exdes.hw/
+vivado/dpdma_exdes.ip_user_files/
+vivado/dpdma_exdes.runs/
+vivado/dpdma_exdes.sim/
+vivado/NA/
+
+# Vitis generated files
+vitis/.metadata/
+vitis/.analytics/
+vitis/IDE.log
+vitis/xdpdma_video_example/build/
+vitis/xdpdma_video_example/Debug/
+vitis/platform/export/
+vitis/platform/build/
+
+# Large binary files
+*.bit
+*.ltx
+*.mcs
+*.bin
+*.elf
+*.o
+*.a
