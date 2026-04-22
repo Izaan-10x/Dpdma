@@ -1,0 +1,4 @@
+domain_path: /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/zynqmp_fsbl/zynqmp_fsbl_bsp
+app_src_dir: /mnt/ssd2/Xilinx/Vitis/2024.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl
+template: zynqmp_fsbl
+lang: c

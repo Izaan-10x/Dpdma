@@ -1,0 +1,1 @@
+set(DRIVER_LIST avbuf;axipmon;clockps;common;coresightps_dcc;csudma;ddrcpsu;dpdma;dppsu;emacps;gpiops;iicps;ipipsu;qspipsu;resetps;rtcpsu;scugic;sdps;spips;sysmonpsu;ttcps;uartps;usbpsu;v_frmbuf_wr;v_tpg;video_common;wdtps;zdma)
