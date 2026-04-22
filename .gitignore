@@ -28,3 +28,21 @@ vitis/platform/build/
 *.elf
 *.o
 *.a
+# TPG VFMW Vivado
+vivado_tpg_vfmw/*.jou
+vivado_tpg_vfmw/*.log
+vivado_tpg_vfmw/*.str
+vivado_tpg_vfmw/.Xil/
+vivado_tpg_vfmw/*.cache/
+vivado_tpg_vfmw/*.gen/
+vivado_tpg_vfmw/*.runs/
+vivado_tpg_vfmw/*.sim/
+vivado_tpg_vfmw/*.hw/
+vivado_tpg_vfmw/*.ip_user_files/
+
+# TPG VFMW Vitis
+vitis_tpg_vfmw/.metadata/
+vitis_tpg_vfmw/*/build/
+vitis_tpg_vfmw/*/Debug/
+vitis_tpg_vfmw/platform/export/
+vitis_tpg_vfmw/platform/build/
