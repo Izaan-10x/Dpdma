@@ -73,14 +73,6 @@ TPG video_out --> VFMW s_axis_video
 | `xdpdma_video_example.c` | Main - TPG+VFMW init, DPDMA + AVBuf config |
 | `xdppsu_interrupt.c` | ISR - HPD event handler, VSync driven display |
 
-### Key Functions
-
-```c
-Init_TPG_VFMW()         // Initialize TPG color bars + VFMW DDR write
-InitDpDmaSubsystem()    // Configure DPDMA + AVBuf + DisplayPort
-DpPsu_Run()             // HPD handler -- train DP link + arm DPDMA
-XDpDma_VSyncHandler()   // VSync ISR -- retrigger DPDMA every frame @ 60Hz
-```
 
 ---
 
