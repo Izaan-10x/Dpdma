@@ -1,0 +1,30 @@
+create libxil.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/zdma/src/libzdma.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/wdtps/src/libwdtps.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/video_common/src/libvideo_common.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/v_tpg/src/libv_tpg.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/v_frmbuf_wr/src/libv_frmbuf_wr.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/usbpsu/src/libusbpsu.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/uartps/src/libuartps.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/ttcps/src/libttcps.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/sysmonpsu/src/libsysmonpsu.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/spips/src/libspips.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/sdps/src/libsdps.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/scugic/src/libscugic.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/rtcpsu/src/librtcpsu.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/resetps/src/libresetps.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/qspipsu/src/libqspipsu.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/ipipsu/src/libipipsu.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/iicps/src/libiicps.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/gpiops/src/libgpiops.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/emacps/src/libemacps.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/dppsu/src/libdppsu.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/dpdma/src/libdpdma.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/ddrcpsu/src/libddrcpsu.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/csudma/src/libcsudma.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/coresightps_dcc/src/libcoresightps_dcc.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/clockps/src/libclockps.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/axipmon/src/libaxipmon.a
+addlib /home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/psu_cortexa53_0/standalone_psu_cortexa53_0/bsp/libsrc/build_configs/gen_bsp/libsrc/avbuf/src/libavbuf.a
+save
+end
