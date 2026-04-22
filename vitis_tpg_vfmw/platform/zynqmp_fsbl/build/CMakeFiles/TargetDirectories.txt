@@ -1,3 +1,0 @@
-/home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/zynqmp_fsbl/build/CMakeFiles/fsbl.elf.dir
-/home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/zynqmp_fsbl/build/CMakeFiles/edit_cache.dir
-/home/izaan/GitRepos/dpdma_exdes/vitis_tpg_vfmw/platform/zynqmp_fsbl/build/CMakeFiles/rebuild_cache.dir

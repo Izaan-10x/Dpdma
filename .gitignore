@@ -39,3 +39,20 @@ vivado_tpg_vfmw/kv260_tpg_vfmw_dp.hw/
 vivado_tpg_vfmw/kv260_tpg_vfmw_dp.ip_user_files/
 vivado_tpg_vfmw/kv260_tpg_vfmw_dp.runs/
 vivado_tpg_vfmw/kv260_tpg_vfmw_dp.sim/
+# Vitis TPG VFMW generated build files
+vitis_tpg_vfmw/platform/zynqmp_fsbl/build/
+vitis_tpg_vfmw/platform/*/build/
+vitis_tpg_vfmw/platform/*/libsrc/build_configs/
+vitis_tpg_vfmw/xdpdma_video_example/src/.cache/
+vitis_tpg_vfmw/_ide/
+*.ninja_log
+*.ninja_deps
+*.obj
+CMakeCache.txt
+# Ninja build logs
+**/.ninja_log
+**/.ninja_deps
+**/gen_bsp/.ninja_log
+
+# CMake generated
+**/CMakeLists.txt.user
