@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Apr 27 12:29:05 2026
+# Process ID         : 993679
+# Current directory  : /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/impl/ip
+# Command line       : vivado -notrace -mode batch -source run_ippack.tcl
+# Log file           : /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/impl/ip/vivado.log
+# Journal file       : /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/impl/ip/vivado.jou
+# Running On         : ipaa-10xe
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz
+# CPU Frequency      : 1300.000 MHz
+# CPU Physical cores : 32
+# CPU Logical cores  : 64
+# Host memory        : 135064 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 137212 MB
+# Available Virtual  : 62970 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

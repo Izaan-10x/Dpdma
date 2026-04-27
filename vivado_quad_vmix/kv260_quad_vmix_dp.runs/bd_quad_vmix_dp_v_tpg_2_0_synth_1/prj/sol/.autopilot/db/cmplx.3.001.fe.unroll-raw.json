@@ -1,0 +1,225 @@
+{
+  "0": {
+    "basicblocks": 8,
+    "calls": "9 3",
+    "file": "v_tpg.cpp",
+    "fileloc": 409,
+    "instructions": 70,
+    "loads": {
+      "G": 3,
+      "T": 1
+    },
+    "name": "v_tpg",
+    "stores": {
+      "G": 3
+    },
+    "total_instructions": 2794
+  },
+  "1": {
+    "basicblocks": 59,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1869,
+    "instructions": 173,
+    "loads": {
+      "G": 16,
+      "L": 6
+    },
+    "name": "tpgPatternBox",
+    "stores": {
+      "G": 6,
+      "L": 12
+    },
+    "total_instructions": 173
+  },
+  "10": {
+    "basicblocks": 18,
+    "calls": "1 11 2",
+    "file": "v_tpg.cpp",
+    "fileloc": 759,
+    "instructions": 358,
+    "loads": {
+      "L": 77
+    },
+    "name": "tpgForeground",
+    "stores": {
+      "L": 54
+    },
+    "total_instructions": 702
+  },
+  "11": {
+    "basicblocks": 22,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1956,
+    "instructions": 90,
+    "loads": {
+      "G": 2,
+      "L": 6
+    },
+    "name": "tpgPatternCrossHair",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 90
+  },
+  "12": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1115,
+    "instructions": 37,
+    "name": "tpgPatternTemporalRamp",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 37
+  },
+  "13": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1193,
+    "instructions": 54,
+    "loads": {
+      "G": 2
+    },
+    "name": "tpgPatternSolidBlack",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 54
+  },
+  "14": {
+    "basicblocks": 18,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1527,
+    "instructions": 52,
+    "loads": {
+      "G": 1
+    },
+    "name": "tpgPatternVerticalHorizontalRamp",
+    "stores": {
+      "G": 2,
+      "L": 6
+    },
+    "total_instructions": 52
+  },
+  "2": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1983,
+    "instructions": 81,
+    "loads": {
+      "L": 6
+    },
+    "name": "tpgPatternMask",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 81
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "4 10 5",
+    "file": "v_tpg.cpp",
+    "fileloc": 304,
+    "instructions": 10,
+    "name": "v_tpgHlsDataFlow",
+    "total_instructions": 2723
+  },
+  "4": {
+    "basicblocks": 31,
+    "calls": "8 6 12 13 13 13 13 13 13 13 13 13 13 14 13 7 13 13 13",
+    "file": "v_tpg.cpp",
+    "fileloc": 536,
+    "instructions": 669,
+    "loads": {
+      "G": 5,
+      "L": 125
+    },
+    "name": "tpgBackground",
+    "stores": {
+      "G": 1,
+      "L": 114
+    },
+    "total_instructions": 1763
+  },
+  "5": {
+    "basicblocks": 58,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 919,
+    "instructions": 248,
+    "loads": {
+      "G": 3,
+      "L": 27
+    },
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "G": 2,
+      "L": 11
+    },
+    "total_instructions": 248
+  },
+  "6": {
+    "basicblocks": 22,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1090,
+    "instructions": 54,
+    "loads": {
+      "G": 4
+    },
+    "name": "tpgPatternVerticalRamp",
+    "stores": {
+      "G": 2,
+      "L": 6
+    },
+    "total_instructions": 54
+  },
+  "7": {
+    "basicblocks": 17,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1823,
+    "instructions": 145,
+    "loads": {
+      "G": 3,
+      "L": 4
+    },
+    "name": "tpgPRBS",
+    "stores": {
+      "G": 3,
+      "L": 10
+    },
+    "total_instructions": 145
+  },
+  "8": {
+    "basicblocks": 18,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1067,
+    "instructions": 50,
+    "loads": {
+      "G": 1
+    },
+    "name": "tpgPatternHorizontalRamp",
+    "stores": {
+      "G": 2,
+      "L": 6
+    },
+    "total_instructions": 50
+  },
+  "9": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  }
+}

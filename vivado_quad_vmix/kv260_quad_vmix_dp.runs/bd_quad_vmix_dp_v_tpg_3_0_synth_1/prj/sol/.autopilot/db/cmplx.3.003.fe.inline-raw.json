@@ -1,0 +1,133 @@
+{
+  "0": {
+    "basicblocks": 5,
+    "calls": "1 8",
+    "file": "v_tpg.cpp",
+    "fileloc": 409,
+    "instructions": 66,
+    "loads": {
+      "G": 2,
+      "T": 1
+    },
+    "name": "v_tpg",
+    "stores": {
+      "G": 3
+    },
+    "total_instructions": 2292
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  },
+  "2": {
+    "basicblocks": 17,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1869,
+    "instructions": 127,
+    "loads": {
+      "G": 8,
+      "L": 6
+    },
+    "name": "tpgPatternBox",
+    "stores": {
+      "G": 6,
+      "L": 12
+    },
+    "total_instructions": 127
+  },
+  "3": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1193,
+    "instructions": 48,
+    "loads": {
+      "G": 2
+    },
+    "name": "tpgPatternSolidBlack",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 48
+  },
+  "4": {
+    "basicblocks": 35,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 919,
+    "instructions": 187,
+    "loads": {
+      "G": 3,
+      "L": 5
+    },
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "G": 2,
+      "L": 11
+    },
+    "total_instructions": 187
+  },
+  "5": {
+    "basicblocks": 34,
+    "calls": "2",
+    "file": "v_tpg.cpp",
+    "fileloc": 759,
+    "instructions": 371,
+    "loads": {
+      "G": 1,
+      "L": 44
+    },
+    "name": "tpgForeground",
+    "stores": {
+      "L": 62
+    },
+    "total_instructions": 498
+  },
+  "6": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1273,
+    "instructions": 181,
+    "loads": {
+      "G": 6
+    },
+    "name": "tpgPatternRainbow",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 181
+  },
+  "7": {
+    "basicblocks": 29,
+    "calls": "3 3 3 3 3 3 3 3 3 3 3 3 6 3 3 3 3 3",
+    "file": "v_tpg.cpp",
+    "fileloc": 536,
+    "instructions": 533,
+    "loads": {
+      "G": 4,
+      "L": 121
+    },
+    "name": "tpgBackground",
+    "stores": {
+      "G": 4,
+      "L": 16
+    },
+    "total_instructions": 1530
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "7 5 4",
+    "file": "v_tpg.cpp",
+    "fileloc": 304,
+    "instructions": 10,
+    "name": "v_tpgHlsDataFlow",
+    "total_instructions": 2225
+  }
+}

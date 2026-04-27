@@ -1,0 +1,599 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Apr 27 12:23:40 2026
+# Process ID         : 984124
+# Current directory  : /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_smartconnect_0_1_synth_1
+# Command line       : vivado -log bd_quad_vmix_dp_smartconnect_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_quad_vmix_dp_smartconnect_0_1.tcl
+# Log file           : /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_smartconnect_0_1_synth_1/bd_quad_vmix_dp_smartconnect_0_1.vds
+# Journal file       : /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_smartconnect_0_1_synth_1/vivado.jou
+# Running On         : ipaa-10xe
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz
+# CPU Frequency      : 1700.000 MHz
+# CPU Physical cores : 32
+# CPU Logical cores  : 64
+# Host memory        : 135064 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 137212 MB
+# Available Virtual  : 121595 MB
+#-----------------------------------------------------------
+source bd_quad_vmix_dp_smartconnect_0_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1443.836 ; gain = 0.023 ; free physical = 90399 ; free virtual = 111459
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_quad_vmix_dp_smartconnect_0_1
+Command: synth_design -top bd_quad_vmix_dp_smartconnect_0_1 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 985336
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2594.230 ; gain = 118.688 ; free physical = 81564 ; free virtual = 102631
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_smartconnect_0_1' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/synth/bd_quad_vmix_dp_smartconnect_0_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_18DRV64' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:696]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_one_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_0/synth/bd_6ba5_one_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_9_xlconstant' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_9_xlconstant' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_one_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_0/synth/bd_6ba5_one_0.v:53]
+INFO: [Synth 8-638] synthesizing module 'bd_6ba5_psr_aclk_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_1/synth/bd_6ba5_psr_aclk_0.vhd:74]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1271' bound to instance 'U0' of component 'proc_sys_reset' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_1/synth/bd_6ba5_psr_aclk_0.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1330]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1399]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1415]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1441]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1464]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1488]
+INFO: [Synth 8-638] synthesizing module 'lpf' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-3491] module 'SRL16' declared at '/mnt/ssd2/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:149029' bound to instance 'POR_SRL_I' of component 'SRL16' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:873]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [/mnt/ssd2/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:149029]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (0#1) [/mnt/ssd2/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:149029]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:821]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:304]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1330]
+INFO: [Synth 8-256] done synthesizing module 'bd_6ba5_psr_aclk_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_1/synth/bd_6ba5_psr_aclk_0.vhd:74]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_6ba5_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:728]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_6ba5_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:728]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_6ba5_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:728]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_6ba5_psr_aclk_0' is unconnected for instance 'psr_aclk' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:728]
+WARNING: [Synth 8-7023] instance 'psr_aclk' of module 'bd_6ba5_psr_aclk_0' has 10 connections declared, but only 6 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:728]
+INFO: [Synth 8-6155] done synthesizing module 'clk_map_imp_18DRV64' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:696]
+INFO: [Synth 8-6157] synthesizing module 'm00_exit_pipeline_imp_SOCQC7' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:737]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_m00e_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_12/synth/bd_6ba5_m00e_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (0#1) [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_m00e_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_12/synth/bd_6ba5_m00e_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'm00_exit_pipeline_imp_SOCQC7' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:737]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_m00s2a_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_11/synth/bd_6ba5_m00s2a_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_m00s2a_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_11/synth/bd_6ba5_m00s2a_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_s00a2s_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_5/synth/bd_6ba5_s00a2s_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_s00a2s_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_5/synth/bd_6ba5_s00a2s_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 's00_entry_pipeline_imp_1RDYBMC' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:1035]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_s00mmu_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_2/synth/bd_6ba5_s00mmu_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_s00mmu_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_2/synth/bd_6ba5_s00mmu_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_s00sic_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_4/synth/bd_6ba5_s00sic_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_s00sic_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_4/synth/bd_6ba5_s00sic_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_s00tr_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_3/synth/bd_6ba5_s00tr_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_s00tr_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_3/synth/bd_6ba5_s00tr_0.sv:53]
+WARNING: [Synth 8-7071] port 'm_axi_awburst' of module 'bd_6ba5_s00tr_0' is unconnected for instance 's00_transaction_regulator' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:1490]
+WARNING: [Synth 8-7071] port 'm_axi_arburst' of module 'bd_6ba5_s00tr_0' is unconnected for instance 's00_transaction_regulator' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:1490]
+WARNING: [Synth 8-7023] instance 's00_transaction_regulator' of module 'bd_6ba5_s00tr_0' has 82 connections declared, but only 80 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:1490]
+INFO: [Synth 8-6155] done synthesizing module 's00_entry_pipeline_imp_1RDYBMC' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:1035]
+INFO: [Synth 8-6157] synthesizing module 's00_nodes_imp_1V36VRI' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:1573]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_sarn_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_6/synth/bd_6ba5_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram' [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8556]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (0#1) [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram' (0#1) [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8556]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_sarn_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_6/synth/bd_6ba5_sarn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_sawn_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_8/synth/bd_6ba5_sawn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_sawn_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_8/synth/bd_6ba5_sawn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_sbn_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_10/synth/bd_6ba5_sbn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized0' [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8556]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (0#1) [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized0' (0#1) [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8556]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_sbn_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_10/synth/bd_6ba5_sbn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_srn_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_7/synth/bd_6ba5_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized1' [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8556]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized1' [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized1' (0#1) [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized1' (0#1) [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8556]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_srn_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_7/synth/bd_6ba5_srn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_6ba5_swn_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_9/synth/bd_6ba5_swn_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized2' [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8556]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized2' [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized2' (0#1) [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized2' (0#1) [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8556]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5_swn_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_9/synth/bd_6ba5_swn_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 's00_nodes_imp_1V36VRI' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:1573]
+INFO: [Synth 8-6155] done synthesizing module 'bd_6ba5' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_smartconnect_0_1' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/synth/bd_quad_vmix_dp_smartconnect_0_1.v:53]
+WARNING: [Synth 8-3848] Net aresetn_out in module/entity clk_map_imp_18DRV64 does not have driver. [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/synth/bd_6ba5.v:712]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+WARNING: [Synth 8-7129] Port din[0] in module sc_util_v1_0_4_onehot_to_binary is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port areset in module sc_util_v1_0_4_pipeline__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleep in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rsta in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port web[0] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[177] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[176] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[175] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[174] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[173] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[172] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[171] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[170] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[169] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[168] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[167] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[166] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[165] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[164] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[163] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[162] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[161] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[160] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[159] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[158] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[157] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[156] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[155] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[154] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[153] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[152] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[151] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[150] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[149] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[148] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[147] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[146] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[145] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[144] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[143] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[142] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[141] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[140] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[139] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[138] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[137] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[136] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[135] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[134] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[133] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[132] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[131] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[130] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[129] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[128] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[127] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[126] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[125] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[124] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[123] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[122] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[121] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[120] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[119] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[118] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[117] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[116] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[115] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[114] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[113] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[112] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[111] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[110] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[109] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[108] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[107] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[106] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[105] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[104] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[103] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[102] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[101] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[100] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[99] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[98] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[97] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[96] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[95] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[94] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[93] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[92] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[91] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[90] in module xpm_memory_base__parameterized2 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2747.168 ; gain = 271.625 ; free physical = 81122 ; free virtual = 102193
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2747.168 ; gain = 271.625 ; free physical = 81040 ; free virtual = 102110
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2747.168 ; gain = 271.625 ; free physical = 81040 ; free virtual = 102110
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.82 ; elapsed = 00:00:00.83 . Memory (MB): peak = 2755.168 ; gain = 0.000 ; free physical = 80872 ; free virtual = 101947
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/ooc.xdc] for cell 'inst'
+create_clock: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3014.699 ; gain = 25.812 ; free physical = 79969 ; free virtual = 101058
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_1/bd_6ba5_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_1/bd_6ba5_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_1/bd_6ba5_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_1/bd_6ba5_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_1/bd_6ba5_psr_aclk_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_quad_vmix_dp_smartconnect_0_1_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_quad_vmix_dp_smartconnect_0_1_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/smartconnect.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/smartconnect.xdc] for cell 'inst'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_smartconnect_0_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_smartconnect_0_1_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_quad_vmix_dp_smartconnect_0_1_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_quad_vmix_dp_smartconnect_0_1_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 19 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3014.699 ; gain = 0.000 ; free physical = 79936 ; free virtual = 101026
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  FDR => FDRE: 12 instances
+  SRL16 => SRL16E: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.3 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3020.637 ; gain = 5.938 ; free physical = 79887 ; free virtual = 100976
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 3020.637 ; gain = 545.094 ; free physical = 79795 ; free virtual = 100888
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 3028.641 ; gain = 553.098 ; free physical = 79792 ; free virtual = 100885
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_smartconnect_0_1_synth_1/dont_touch.xdc, line 71).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_aw_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_b_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_w_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_aw_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_b_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_w_node/inst/s_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_exit_pipeline/m00_exit/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_mmu/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_si_converter/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_entry_pipeline/s00_transaction_regulator/inst/xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_b_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_r_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_w_node/inst/inst_mi_handler/\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 3028.641 ; gain = 553.098 ; free physical = 79763 ; free virtual = 100856
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 3028.641 ; gain = 553.098 ; free physical = 80133 ; free virtual = 101235
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    7 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 33    
+	   2 Input    5 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 8     
+	   3 Input    1 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 49    
++---Registers : 
+	             2178 Bit    Registers := 4     
+	              178 Bit    Registers := 1     
+	              165 Bit    Registers := 1     
+	              156 Bit    Registers := 2     
+	               47 Bit    Registers := 1     
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	               23 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	                6 Bit    Registers := 18    
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 8     
+	                3 Bit    Registers := 20    
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 133   
++---Muxes : 
+	   2 Input 2178 Bit        Muxes := 2     
+	   2 Input   47 Bit        Muxes := 1     
+	   2 Input   33 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 6     
+	   4 Input    7 Bit        Muxes := 4     
+	   2 Input    6 Bit        Muxes := 6     
+	   4 Input    3 Bit        Muxes := 3     
+	   2 Input    3 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 28    
+	   2 Input    1 Bit        Muxes := 37    
+	   6 Input    1 Bit        Muxes := 23    
+	  12 Input    1 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 4     
+	   7 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_EXT.ACT_LO_EXT/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/EXT_LPF/ACTIVE_LOW_AUX.ACT_LO_AUX/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/FDRE_inst) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/BSR_OUT_DFF[0].FDRE_BSR) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/PR_OUT_DFF[0].FDRE_PER) is unused and will be removed from module bd_6ba5.
+WARNING: [Synth 8-3332] Sequential element (clk_map/psr_aclk/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N) is unused and will be removed from module bd_6ba5.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:50 . Memory (MB): peak = 3028.641 ; gain = 553.098 ; free physical = 78938 ; free virtual = 100119
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                                                                               | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|xpm_memory_sdpram:/xpm_memory_base_inst                                                                                                                                   | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 156             | RAM32M16 x 12  | 
+|xpm_memory_sdpram:/xpm_memory_base_inst                                                                                                                                   | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 156             | RAM32M16 x 12  | 
+|inst/\s00_nodes/s00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 23              | RAM32M16 x 2   | 
+|inst/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 165             | RAM32M16 x 12  | 
+|inst/\s00_nodes/s00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 178             | RAM32M16 x 13  | 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:04 ; elapsed = 00:01:04 . Memory (MB): peak = 3486.441 ; gain = 1010.898 ; free physical = 84677 ; free virtual = 105971
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:05 ; elapsed = 00:01:05 . Memory (MB): peak = 3523.488 ; gain = 1047.945 ; free physical = 84557 ; free virtual = 105852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                                                                               | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|xpm_memory_sdpram:/xpm_memory_base_inst                                                                                                                                   | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 156             | RAM32M16 x 12  | 
+|xpm_memory_sdpram:/xpm_memory_base_inst                                                                                                                                   | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 156             | RAM32M16 x 12  | 
+|inst/\s00_nodes/s00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 23              | RAM32M16 x 2   | 
+|inst/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 165             | RAM32M16 x 12  | 
+|inst/\s00_nodes/s00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 178             | RAM32M16 x 13  | 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:06 ; elapsed = 00:01:07 . Memory (MB): peak = 3524.496 ; gain = 1048.953 ; free physical = 84457 ; free virtual = 105752
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:10 ; elapsed = 00:01:11 . Memory (MB): peak = 3671.309 ; gain = 1195.766 ; free physical = 83721 ; free virtual = 105020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:10 ; elapsed = 00:01:11 . Memory (MB): peak = 3671.309 ; gain = 1195.766 ; free physical = 83721 ; free virtual = 105020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:11 ; elapsed = 00:01:12 . Memory (MB): peak = 3671.309 ; gain = 1195.766 ; free physical = 83709 ; free virtual = 105008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:11 ; elapsed = 00:01:12 . Memory (MB): peak = 3671.309 ; gain = 1195.766 ; free physical = 83709 ; free virtual = 105008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:11 ; elapsed = 00:01:12 . Memory (MB): peak = 3671.309 ; gain = 1195.766 ; free physical = 83707 ; free virtual = 105006
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:11 ; elapsed = 00:01:12 . Memory (MB): peak = 3671.309 ; gain = 1195.766 ; free physical = 83707 ; free virtual = 105006
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name      | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | shift_reg_reg | 16     | 1          | 1      | 0       | 0      | 0      | 0      | 
+|dsrl__94    | shift_reg_reg | 16     | 1          | 1      | 0       | 0      | 0      | 0      | 
++------------+---------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |    69|
+|2     |LUT2     |    50|
+|3     |LUT3     |   186|
+|4     |LUT4     |    78|
+|5     |LUT5     |   105|
+|6     |LUT6     |   139|
+|7     |RAM32M16 |    34|
+|8     |SRL16    |     1|
+|9     |SRL16E   |     8|
+|10    |FDCE     |    42|
+|11    |FDR      |     4|
+|12    |FDRE     |   841|
+|13    |FDSE     |    45|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:11 ; elapsed = 00:01:12 . Memory (MB): peak = 3671.309 ; gain = 1195.766 ; free physical = 83706 ; free virtual = 105005
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13895 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 3671.309 ; gain = 922.297 ; free physical = 83654 ; free virtual = 104953
+Synthesis Optimization Complete : Time (s): cpu = 00:01:11 ; elapsed = 00:01:12 . Memory (MB): peak = 3671.309 ; gain = 1195.766 ; free physical = 83653 ; free virtual = 104952
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.15 . Memory (MB): peak = 3671.309 ; gain = 0.000 ; free physical = 83691 ; free virtual = 104990
+INFO: [Netlist 29-17] Analyzing 39 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3671.309 ; gain = 0.000 ; free physical = 83221 ; free virtual = 104521
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 39 instances were transformed.
+  FDR => FDRE: 4 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 34 instances
+  SRL16 => SRL16E: 1 instance 
+
+Synth Design complete | Checksum: c7317e40
+INFO: [Common 17-83] Releasing license: Synthesis
+115 Infos, 122 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:25 ; elapsed = 00:01:22 . Memory (MB): peak = 3671.309 ; gain = 2186.598 ; free physical = 83102 ; free virtual = 104402
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2774.342; main = 2586.566; forked = 190.677
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4551.359; main = 3653.508; forked = 914.859
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3677.516 ; gain = 0.000 ; free physical = 83067 ; free virtual = 104368
+INFO: [Common 17-1381] The checkpoint '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_smartconnect_0_1_synth_1/bd_quad_vmix_dp_smartconnect_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_quad_vmix_dp_smartconnect_0_1, cache-ID = 041a2355c4afbc1f
+INFO: [Coretcl 2-1174] Renamed 109 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3677.516 ; gain = 0.000 ; free physical = 82076 ; free virtual = 103383
+INFO: [Common 17-1381] The checkpoint '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_smartconnect_0_1_synth_1/bd_quad_vmix_dp_smartconnect_0_1.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_quad_vmix_dp_smartconnect_0_1_utilization_synth.rpt -pb bd_quad_vmix_dp_smartconnect_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 27 12:25:27 2026...

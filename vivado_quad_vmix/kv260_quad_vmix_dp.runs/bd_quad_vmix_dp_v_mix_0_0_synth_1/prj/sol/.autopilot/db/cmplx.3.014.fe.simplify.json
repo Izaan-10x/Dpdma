@@ -1,0 +1,338 @@
+{
+  "0": {
+    "basicblocks": 10,
+    "calls": "4",
+    "file": "v_mix.cpp",
+    "fileloc": 1812,
+    "instructions": 236,
+    "loads": {
+      "T": 25
+    },
+    "name": "v_mix",
+    "total_instructions": 3332
+  },
+  "1": {
+    "basicblocks": 14,
+    "calls": "",
+    "file": "v_mix.cpp",
+    "fileloc": 435,
+    "instructions": 108,
+    "name": "v_mix_core_alpha<false, false>",
+    "total_instructions": 222
+  },
+  "10": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 58,
+    "instructions": 25,
+    "name": "v_mix_420_to_422<false>",
+    "total_instructions": 25
+  },
+  "11": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_mix.cpp",
+    "fileloc": 93,
+    "instructions": 28,
+    "name": "v_mix_upsample<false>",
+    "total_instructions": 106
+  },
+  "12": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 87,
+    "instructions": 25,
+    "name": "v_mix_422_to_444<false>",
+    "total_instructions": 25
+  },
+  "13": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 58,
+    "instructions": 25,
+    "name": "v_mix_420_to_422<false>",
+    "total_instructions": 25
+  },
+  "14": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 87,
+    "instructions": 28,
+    "name": "v_mix_422_to_444<false>",
+    "total_instructions": 106
+  },
+  "15": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 865,
+    "instructions": 25,
+    "name": "v_mix_yuv2rgb<false>",
+    "total_instructions": 25
+  },
+  "16": {
+    "basicblocks": 17,
+    "calls": "20 20",
+    "file": "v_mix.cpp",
+    "fileloc": 3072,
+    "instructions": 111,
+    "loads": {
+      "L": 7
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "total_instructions": 162
+  },
+  "17": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 58,
+    "instructions": 25,
+    "name": "v_mix_420_to_422<false>",
+    "total_instructions": 25
+  },
+  "18": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 58,
+    "instructions": 25,
+    "name": "v_mix_420_to_422<false>",
+    "total_instructions": 25
+  },
+  "19": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 865,
+    "instructions": 25,
+    "name": "v_mix_yuv2rgb<false>",
+    "total_instructions": 25
+  },
+  "2": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "v_mix.cpp",
+    "fileloc": 435,
+    "instructions": 75,
+    "name": "v_mix_core_alpha<false, false>",
+    "total_instructions": 189
+  },
+  "20": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  },
+  "21": {
+    "basicblocks": 17,
+    "calls": "20 20",
+    "file": "v_mix.cpp",
+    "fileloc": 3072,
+    "instructions": 111,
+    "loads": {
+      "L": 7
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "total_instructions": 162
+  },
+  "22": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_mix.cpp",
+    "fileloc": 93,
+    "instructions": 28,
+    "name": "v_mix_upsample<false>",
+    "total_instructions": 106
+  },
+  "23": {
+    "basicblocks": 17,
+    "calls": "20 20",
+    "file": "v_mix.cpp",
+    "fileloc": 3072,
+    "instructions": 111,
+    "loads": {
+      "L": 7
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "total_instructions": 162
+  },
+  "24": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 87,
+    "instructions": 28,
+    "name": "v_mix_422_to_444<false>",
+    "total_instructions": 106
+  },
+  "25": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "v_mix.cpp",
+    "fileloc": 435,
+    "instructions": 75,
+    "name": "v_mix_core_alpha<false, false>",
+    "total_instructions": 189
+  },
+  "26": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 702,
+    "instructions": 23,
+    "name": "v_mix_444_to_422<false>",
+    "total_instructions": 23
+  },
+  "27": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 58,
+    "instructions": 25,
+    "name": "v_mix_420_to_422<false>",
+    "total_instructions": 25
+  },
+  "28": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_mix.cpp",
+    "fileloc": 93,
+    "instructions": 28,
+    "name": "v_mix_upsample<false>",
+    "total_instructions": 106
+  },
+  "29": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 87,
+    "instructions": 28,
+    "name": "v_mix_422_to_444<false>",
+    "total_instructions": 106
+  },
+  "3": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 865,
+    "instructions": 25,
+    "name": "v_mix_yuv2rgb<false>",
+    "total_instructions": 25
+  },
+  "30": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 493,
+    "instructions": 23,
+    "name": "v_mix_422_to_420<false>",
+    "total_instructions": 23
+  },
+  "31": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 87,
+    "instructions": 28,
+    "name": "v_mix_422_to_444<false>",
+    "total_instructions": 106
+  },
+  "32": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 865,
+    "instructions": 25,
+    "name": "v_mix_yuv2rgb<false>",
+    "total_instructions": 25
+  },
+  "33": {
+    "basicblocks": 17,
+    "calls": "20 20",
+    "file": "v_mix.cpp",
+    "fileloc": 3072,
+    "instructions": 111,
+    "loads": {
+      "L": 7
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "total_instructions": 162
+  },
+  "34": {
+    "basicblocks": 7,
+    "calls": "20 20",
+    "file": "v_mix.cpp",
+    "fileloc": 3172,
+    "instructions": 67,
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 129
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "16 18 12 32 23 13 14 15 28 1 8 17 31 19 9 25 21 27 24 3 22 6 33 10 29 5 11 2 7 26 30 34",
+    "file": "v_mix.cpp",
+    "fileloc": 498,
+    "instructions": 95,
+    "name": "VMixHlsDataFlowFunction",
+    "total_instructions": 3096
+  },
+  "5": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 865,
+    "instructions": 25,
+    "name": "v_mix_yuv2rgb<false>",
+    "total_instructions": 25
+  },
+  "6": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "v_mix.cpp",
+    "fileloc": 435,
+    "instructions": 75,
+    "name": "v_mix_core_alpha<false, false>",
+    "total_instructions": 189
+  },
+  "7": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "v_csc.cpp",
+    "fileloc": 1013,
+    "instructions": 26,
+    "name": "v_mix_rgb2yuv<false>",
+    "total_instructions": 104
+  },
+  "8": {
+    "basicblocks": 17,
+    "calls": "20 20",
+    "file": "v_mix.cpp",
+    "fileloc": 3072,
+    "instructions": 111,
+    "loads": {
+      "L": 7
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "total_instructions": 162
+  },
+  "9": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_mix.cpp",
+    "fileloc": 93,
+    "instructions": 28,
+    "name": "v_mix_upsample<false>",
+    "total_instructions": 106
+  }
+}

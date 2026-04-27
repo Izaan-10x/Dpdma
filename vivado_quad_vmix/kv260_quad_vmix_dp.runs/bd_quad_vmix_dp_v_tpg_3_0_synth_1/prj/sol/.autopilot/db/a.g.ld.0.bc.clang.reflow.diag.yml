@@ -1,0 +1,2742 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1195, Column: 18 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<6, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1275, Column: 18 }
+Function:        _Z17tpgPatternRainbowth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<6, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternRainbow(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1274, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1825, Column: 18 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<6, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPRBS(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1824, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 552, Column: 18 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<6, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 723, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 681, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - Callee:          'tpgPatternRainbow(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1274, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 703, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - Callee:          'tpgPRBS(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1824, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1985, Column: 18 }
+Function:        _Z14tpgPatternMaskN3hls6ScalarILi6E7ap_uintILi8EEEEhh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<6, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternMask(hls::Scalar<6, ap_uint<8> >, unsigned char, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1984, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 768, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<6, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ''''
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 803, Column: 14 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - Callee:          'tpgPatternMask(hls::Scalar<6, ap_uint<8> >, unsigned char, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1984, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 793, Column: 14 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - Callee:          'tpgPatternCrossHair(hls::Scalar<6, ap_uint<8> >, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1958, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 788, Column: 14 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - Callee:          'tpgPatternBox(hls::Scalar<6, ap_uint<8> >, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1871, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 923, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<6, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'MultiPixStream2AXIvideo(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, unsigned short&, unsigned short&, unsigned char&, bool&, bool&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 921, Column: 0 }
+  - String:          ''''
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 345, Column: 2 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 358, Column: 5 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 399, Column: 2 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'MultiPixStream2AXIvideo(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, unsigned short&, unsigned short&, unsigned char&, bool&, bool&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 921, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 500, Column: 6 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'unsigned short reg<unsigned short>(unsigned short)'
+    DebugLoc:        { File: /mnt/ssd2/Xilinx/Vitis/2024.2/common/technology/autopilot/utils/x_hls_utils.h, 
+                       Line: 223, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpg(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 423, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 517, Column: 2 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpg(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 423, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            intpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z14tpgPatternMaskN3hls6ScalarILi6E7ap_uintILi8EEEEhh
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp13
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp37
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z17tpgPatternRainbowth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp31
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp9
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp11
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp13
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp15
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp17
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp19
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp21
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp23
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp25
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp27
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp29
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp33
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp35
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp39
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp41
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp43
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 803, Column: 14 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp13
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 703, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp37
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 681, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp31
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 587, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 595, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp9
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 603, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp11
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 611, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp13
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 619, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp15
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 627, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp17
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 635, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp19
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 643, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp21
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 651, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp23
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 659, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp25
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 667, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp27
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 675, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp29
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 691, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp33
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 699, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp35
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 709, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp39
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 716, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp41
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 723, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp43
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            intpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp43
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp41
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp39
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp37
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp35
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp33
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp31
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp29
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp27
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp25
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp23
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp21
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp19
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp17
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp15
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp13
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp11
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp9
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 552, Column: 18 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            outpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp13
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 770, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 769, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            intpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 768, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            outpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 923, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1011, Column: 23 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1011_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1013, Column: 24 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1013_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1987, Column: 21 }
+Function:        _Z14tpgPatternMaskN3hls6ScalarILi6E7ap_uintILi8EEEEhh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1987_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1961, Column: 21 }
+Function:        _Z19tpgPatternCrossHairN3hls6ScalarILi6E7ap_uintILi8EEEEtttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1961_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1930, Column: 21 }
+Function:        _Z13tpgPatternBoxN3hls6ScalarILi6E7ap_uintILi8EEEEttttttttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1930_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1833, Column: 21 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1833_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1277, Column: 21 }
+Function:        _Z17tpgPatternRainbowth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1277_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1196, Column: 21 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1196_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 921, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1011_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1011:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 921, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1013_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1013:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 921, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERNS0_INS_4axisIS2_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1013_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1013:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1984, Column: 0 }
+Function:        _Z14tpgPatternMaskN3hls6ScalarILi6E7ap_uintILi8EEEEhh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1987_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1987:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternMask
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1958, Column: 0 }
+Function:        _Z19tpgPatternCrossHairN3hls6ScalarILi6E7ap_uintILi8EEEEtttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1961_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1961:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternCrossHair
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1871, Column: 0 }
+Function:        _Z13tpgPatternBoxN3hls6ScalarILi6E7ap_uintILi8EEEEttttttttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1930_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1930:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternBox
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1824, Column: 0 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1833_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1833:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPRBS
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1274, Column: 0 }
+Function:        _Z17tpgPatternRainbowth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1277_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1277:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternRainbow
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1194, Column: 0 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1196_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1196:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternSolidBlack
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 587, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 681, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - Callee:          'tpgPatternRainbow(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1274, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 703, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - Callee:          'tpgPRBS(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1824, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 788, Column: 14 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - Callee:          'tpgPatternBox(hls::Scalar<6, ap_uint<8> >, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1871, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 793, Column: 14 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - Callee:          'tpgPatternCrossHair(hls::Scalar<6, ap_uint<8> >, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1958, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 803, Column: 14 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - Callee:          'tpgPatternMask(hls::Scalar<6, ap_uint<8> >, unsigned char, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1984, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 345, Column: 2 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 358, Column: 5 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 399, Column: 2 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'MultiPixStream2AXIvideo(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, unsigned short&, unsigned short&, unsigned char&, bool&, bool&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 921, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 500, Column: 6 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'unsigned short reg<unsigned short>(unsigned short)'
+    DebugLoc:        { File: /mnt/ssd2/Xilinx/Vitis/2024.2/common/technology/autopilot/utils/x_hls_utils.h, 
+                       Line: 223, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpg(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 423, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 517, Column: 2 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpg(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 423, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_v_tpg_ir
+Args:            
+  - Callee:          'v_tpg(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 423, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_v_tpg_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 548, Column: 0 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPRBS(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1824, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 762, Column: 0 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternCrossHair(hls::Scalar<6, ap_uint<8> >, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1958, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 762, Column: 0 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternMask(hls::Scalar<6, ap_uint<8> >, unsigned char, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1984, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp9
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp11
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp13
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp15
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp17
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp19
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp21
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp23
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp25
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp27
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp29
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp31
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp33
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp35
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp39
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp41
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp43
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1985, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp13
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 325, Column: 22 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            ovrlayYUV
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '48'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 324, Column: 22 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            bckgndYUV
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '48'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 723, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 716, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 709, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 699, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 691, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 681, Column: 26 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternRainbow(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1274, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 675, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 667, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 659, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 651, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 643, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 635, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 627, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 619, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 611, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 603, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 595, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 587, Column: 14 }
+Function:        _ZL13tpgBackgroundRtS_RiRhS_S_S_S_S1_S1_S1_S1_RN3hls6streamINS2_6ScalarILi6E7ap_uintILi8EEEELi0EEE
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 788, Column: 14 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternBox(hls::Scalar<6, ap_uint<8> >, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 1871, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1869, Column: 47 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           pixIn
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1872, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           pixOut
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           alloca
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayPromotion
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1959, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Automatically partitioning array '''
+  - Value:           pixOut
+  - String:          ''' dimension '
+  - Dim:             '1'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=agg.tmp'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  tpgForeground
+  - String:          ' '
+  - PragmaSrcLoc:    '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:777:9'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 777, Column: 9 }
+  - VarName:         agg.tmp
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 777, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            agg.tmp
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/v_tpg_zoneplate.h, 
+                   Line: 2110, Column: 0 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=cyclic factor=3 variable=tpgSinTableArray_9bit'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  v_tpg
+  - String:          ' '
+  - varLoc:          '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/v_tpg_zoneplate.h:2110:0'
+  - String:          ' '
+  - PragmaSrcLoc:    '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:568:9'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 568, Column: 9 }
+  - VarName:         tpgSinTableArray_9bit
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 568, Column: 9 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            cyclic
+  - String:          ' factor='
+  - Factor:          '3'
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            tpgSinTableArray_9bit
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1869, Column: 47 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=agg.tmp1'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  tpgForeground
+  - String:          ' '
+  - varLoc:          '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1869:47'
+  - String:          ' '
+  - PragmaSrcLoc:    '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:777:9'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 777, Column: 9 }
+  - VarName:         agg.tmp1
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 777, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            agg.tmp1
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1872, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=ref.tmp'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  tpgForeground
+  - String:          ' '
+  - varLoc:          '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1872:18'
+  - String:          ' '
+  - PragmaSrcLoc:    '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:777:9'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 777, Column: 9 }
+  - VarName:         ref.tmp
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 777, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            ref.tmp
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1959, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=ref.tmp11'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  tpgForeground
+  - String:          ' '
+  - varLoc:          '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1959:18'
+  - String:          ' '
+  - PragmaSrcLoc:    '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:777:9'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 777, Column: 9 }
+  - VarName:         ref.tmp11
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 777, Column: 9 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            ref.tmp11
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/src/v_tpg_zoneplate.h, 
+                   Line: 2110, Column: 0 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          tpgSinTableArray_9bit
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Cyclic
+  - String:          ' partitioning'
+  - String:          ' with factor '
+  - Factor:          '3'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1869, Column: 47 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          agg.tmp1
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1872, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          agg.tmp
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 1959, Column: 18 }
+Function:        _ZL13tpgForegroundRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEERtS7_RhS8_S8_S7_S7_S7_S7_S7_S7_S8_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp11
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 345, Column: 2 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'tpgBackground(unsigned short&, unsigned short&, int&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 548, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 358, Column: 5 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'tpgForeground(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 762, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 399, Column: 2 }
+Function:        _ZL16v_tpgHlsDataFlowRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_RiRN3hls6streamINS3_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'MultiPixStream2AXIvideo(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, unsigned short&, unsigned short&, unsigned char&, bool&, bool&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 921, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 500, Column: 6 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'unsigned short reg<unsigned short>(unsigned short)'
+    DebugLoc:        { File: /mnt/ssd2/Xilinx/Vitis/2024.2/common/technology/autopilot/utils/x_hls_utils.h, 
+                       Line: 223, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpg(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 423, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                   Line: 517, Column: 2 }
+Function:        _Z5v_tpgRtS_S_RbRhS1_S1_S1_S1_S_S_S_S_S_S_S_S_S_S_S1_S1_S_RN3hls6streamINS2_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEES0_
+Args:            
+  - Callee:          'v_tpgHlsDataFlow(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, int&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 317, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_tpg(unsigned short&, unsigned short&, unsigned short&, bool&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, bool&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_tpg_3_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp, 
+                       Line: 423, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...

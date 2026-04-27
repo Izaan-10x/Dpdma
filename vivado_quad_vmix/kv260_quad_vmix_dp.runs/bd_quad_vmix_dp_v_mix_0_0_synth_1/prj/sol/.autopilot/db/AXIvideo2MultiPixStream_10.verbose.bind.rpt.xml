@@ -1,0 +1,51 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'AXIvideo2MultiPixStream_10'" level="0">
+<item name = "Date">Mon Apr 27 12:26:36 2026
+</item>
+<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
+<item name = "Project">prj</item>
+<item name = "Solution">sol (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">6.67 ns, 2.034 ns, 1.80 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">2, 4168806, 13.334 ns, 27.793 ms, 2, 4168806, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_AXIvideo2MultiPixStream_10_Pipeline_loop_wait_for_start_fu_186">AXIvideo2MultiPixStream_10_Pipeline_loop_wait_for_start, 2, 2, 13.334 ns, 13.334 ns, 1, 1, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_AXIvideo2MultiPixStream_10_Pipeline_loop_width_fu_206">AXIvideo2MultiPixStream_10_Pipeline_loop_width, 3, 1923, 20.001 ns, 12.821 us, 1, 1921, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_AXIvideo2MultiPixStream_10_Pipeline_loop_wait_for_eol_fu_234">AXIvideo2MultiPixStream_10_Pipeline_loop_wait_for_eol, 2, 2, 13.334 ns, 13.334 ns, 1, 1, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_reg_unsigned_short_s_fu_265">reg_unsigned_short_s, 1, 1, 6.667 ns, 6.667 ns, 1, 1, yes</column>
+<column name="grp_reg_unsigned_short_s_fu_271">reg_unsigned_short_s, 1, 1, 6.667 ns, 6.667 ns, 1, 1, yes</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- loop_height">0, 4168800, 10 ~ 1930, -, -, 0 ~ 2160, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

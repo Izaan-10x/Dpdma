@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_ab64_psr_aclk_0.vhd" \
+"../../../bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_0/ip/ip_1/sim/bd_6ba5_psr_aclk_0.vhd" \
+"../../../bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_rst_ps8_0_149M_0/sim/bd_quad_vmix_dp_rst_ps8_0_149M_0.vhd" \
+
+# Do not sort compile order
+nosort

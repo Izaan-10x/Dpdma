@@ -1,0 +1,180 @@
+{
+  "0": {
+    "basicblocks": 8,
+    "calls": "1 11",
+    "file": "v_tpg.cpp",
+    "fileloc": 409,
+    "instructions": 70,
+    "loads": {
+      "G": 3,
+      "T": 1
+    },
+    "name": "v_tpg",
+    "stores": {
+      "G": 3
+    },
+    "total_instructions": 3092
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  },
+  "10": {
+    "basicblocks": 31,
+    "calls": "3 3 3 3 3 3 3 3 3 3 3 3 9 3 3 8 3 3 3",
+    "file": "v_tpg.cpp",
+    "fileloc": 536,
+    "instructions": 665,
+    "loads": {
+      "G": 1,
+      "L": 125
+    },
+    "name": "tpgBackground",
+    "stores": {
+      "G": 1,
+      "L": 114
+    },
+    "total_instructions": 2061
+  },
+  "11": {
+    "basicblocks": 1,
+    "calls": "10 7 4",
+    "file": "v_tpg.cpp",
+    "fileloc": 304,
+    "instructions": 10,
+    "name": "v_tpgHlsDataFlow",
+    "total_instructions": 3021
+  },
+  "2": {
+    "basicblocks": 59,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1869,
+    "instructions": 173,
+    "loads": {
+      "G": 16,
+      "L": 6
+    },
+    "name": "tpgPatternBox",
+    "stores": {
+      "G": 6,
+      "L": 12
+    },
+    "total_instructions": 173
+  },
+  "3": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1193,
+    "instructions": 54,
+    "loads": {
+      "G": 2
+    },
+    "name": "tpgPatternSolidBlack",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 54
+  },
+  "4": {
+    "basicblocks": 58,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 919,
+    "instructions": 248,
+    "loads": {
+      "G": 3,
+      "L": 27
+    },
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "G": 2,
+      "L": 11
+    },
+    "total_instructions": 248
+  },
+  "5": {
+    "basicblocks": 22,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1956,
+    "instructions": 90,
+    "loads": {
+      "G": 2,
+      "L": 6
+    },
+    "name": "tpgPatternCrossHair",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 90
+  },
+  "6": {
+    "basicblocks": 16,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1983,
+    "instructions": 81,
+    "loads": {
+      "L": 6
+    },
+    "name": "tpgPatternMask",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 81
+  },
+  "7": {
+    "basicblocks": 18,
+    "calls": "2 5 6",
+    "file": "v_tpg.cpp",
+    "fileloc": 759,
+    "instructions": 358,
+    "loads": {
+      "L": 77
+    },
+    "name": "tpgForeground",
+    "stores": {
+      "L": 54
+    },
+    "total_instructions": 702
+  },
+  "8": {
+    "basicblocks": 17,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1823,
+    "instructions": 145,
+    "loads": {
+      "G": 3,
+      "L": 4
+    },
+    "name": "tpgPRBS",
+    "stores": {
+      "G": 3,
+      "L": 10
+    },
+    "total_instructions": 145
+  },
+  "9": {
+    "basicblocks": 96,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1273,
+    "instructions": 333,
+    "loads": {
+      "G": 12
+    },
+    "name": "tpgPatternRainbow",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 333
+  }
+}

@@ -1,0 +1,436 @@
+
+*** Running vivado
+    with args -log bd_quad_vmix_dp_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_quad_vmix_dp_wrapper.tcl
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Mon Apr 27 12:42:35 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source bd_quad_vmix_dp_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1434.516 ; gain = 35.836 ; free physical = 89348 ; free virtual = 111533
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/mnt/ssd2/Xilinx/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5578] Found utility IPs instantiated in block design /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.srcs/sources_1/bd/bd_quad_vmix_dp/bd_quad_vmix_dp.bd which have equivalent inline hdl with improved performance and reduced diskspace.
+It is recommended to migrate these utility IPs to inline hdl  using the command upgrade_project -migrate_to_inline_hdl.  The utility IPs may be deprecated in future releases.
+More information on inline hdl is available in UG994. 
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1509.969 ; gain = 75.453 ; free physical = 89260 ; free virtual = 111446
+Command: synth_design -top bd_quad_vmix_dp_wrapper -part xck26-sfvc784-2LV-c
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1072140
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2661.836 ; gain = 118.656 ; free physical = 87998 ; free virtual = 110185
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_wrapper' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/hdl/bd_quad_vmix_dp_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:13]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_smartconnect_0_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_smartconnect_0_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_smartconnect_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'M00_AXI_awprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M00_AXI_arprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M01_AXI_awprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M01_AXI_arprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M02_AXI_awprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M02_AXI_arprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M03_AXI_awprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M03_AXI_arprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M04_AXI_awprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M04_AXI_arprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M05_AXI_awprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M05_AXI_arprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M06_AXI_awprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7071] port 'M06_AXI_arprot' of module 'bd_quad_vmix_dp_smartconnect_0_0' is unconnected for instance 'axi_smc_ctrl' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+WARNING: [Synth 8-7023] instance 'axi_smc_ctrl' of module 'bd_quad_vmix_dp_smartconnect_0_0' has 174 connections declared, but only 160 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:302]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_smartconnect_0_1' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_smartconnect_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_smartconnect_0_1' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_smartconnect_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_rst_ps8_0_149M_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_rst_ps8_0_149M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_rst_ps8_0_149M_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_rst_ps8_0_149M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_quad_vmix_dp_rst_ps8_0_149M_0' is unconnected for instance 'rst_ps8_0_149M' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:532]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_quad_vmix_dp_rst_ps8_0_149M_0' is unconnected for instance 'rst_ps8_0_149M' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:532]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_quad_vmix_dp_rst_ps8_0_149M_0' is unconnected for instance 'rst_ps8_0_149M' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:532]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'bd_quad_vmix_dp_rst_ps8_0_149M_0' is unconnected for instance 'rst_ps8_0_149M' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:532]
+WARNING: [Synth 8-7023] instance 'rst_ps8_0_149M' of module 'bd_quad_vmix_dp_rst_ps8_0_149M_0' has 10 connections declared, but only 6 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:532]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_v_frmbuf_wr_0_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_frmbuf_wr_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_v_frmbuf_wr_0_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_frmbuf_wr_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'm_axi_mm_video_AWREGION' of module 'bd_quad_vmix_dp_v_frmbuf_wr_0_0' is unconnected for instance 'v_frmbuf_wr_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:539]
+WARNING: [Synth 8-7071] port 'm_axi_mm_video_ARREGION' of module 'bd_quad_vmix_dp_v_frmbuf_wr_0_0' is unconnected for instance 'v_frmbuf_wr_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:539]
+WARNING: [Synth 8-7023] instance 'v_frmbuf_wr_0' of module 'bd_quad_vmix_dp_v_frmbuf_wr_0_0' has 64 connections declared, but only 62 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:539]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_v_mix_0_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_mix_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_v_mix_0_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_mix_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_v_tpg_0_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_tpg_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_v_tpg_0_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_tpg_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'fid' of module 'bd_quad_vmix_dp_v_tpg_0_0' is unconnected for instance 'v_tpg_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:677]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'bd_quad_vmix_dp_v_tpg_0_0' is unconnected for instance 'v_tpg_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:677]
+WARNING: [Synth 8-7023] instance 'v_tpg_0' of module 'bd_quad_vmix_dp_v_tpg_0_0' has 31 connections declared, but only 29 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:677]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_v_tpg_1_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_tpg_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_v_tpg_1_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_tpg_1_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'fid' of module 'bd_quad_vmix_dp_v_tpg_1_0' is unconnected for instance 'v_tpg_1' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:707]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'bd_quad_vmix_dp_v_tpg_1_0' is unconnected for instance 'v_tpg_1' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:707]
+WARNING: [Synth 8-7023] instance 'v_tpg_1' of module 'bd_quad_vmix_dp_v_tpg_1_0' has 31 connections declared, but only 29 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:707]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_v_tpg_2_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_tpg_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_v_tpg_2_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_tpg_2_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'fid' of module 'bd_quad_vmix_dp_v_tpg_2_0' is unconnected for instance 'v_tpg_2' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:737]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'bd_quad_vmix_dp_v_tpg_2_0' is unconnected for instance 'v_tpg_2' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:737]
+WARNING: [Synth 8-7023] instance 'v_tpg_2' of module 'bd_quad_vmix_dp_v_tpg_2_0' has 31 connections declared, but only 29 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:737]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_v_tpg_3_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_tpg_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_v_tpg_3_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_tpg_3_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'fid' of module 'bd_quad_vmix_dp_v_tpg_3_0' is unconnected for instance 'v_tpg_3' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:767]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'bd_quad_vmix_dp_v_tpg_3_0' is unconnected for instance 'v_tpg_3' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:767]
+WARNING: [Synth 8-7023] instance 'v_tpg_3' of module 'bd_quad_vmix_dp_v_tpg_3_0' has 31 connections declared, but only 29 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:767]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_v_tpg_4_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_tpg_4_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_v_tpg_4_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_v_tpg_4_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'fid' of module 'bd_quad_vmix_dp_v_tpg_4_0' is unconnected for instance 'v_tpg_4' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:797]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'bd_quad_vmix_dp_v_tpg_4_0' is unconnected for instance 'v_tpg_4' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:797]
+WARNING: [Synth 8-7023] instance 'v_tpg_4' of module 'bd_quad_vmix_dp_v_tpg_4_0' has 31 connections declared, but only 29 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:797]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_xlconcat_0_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_xlconcat_0_0/synth/bd_quad_vmix_dp_xlconcat_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_6_xlconcat' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/6120/hdl/xlconcat_v2_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_6_xlconcat' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ipshared/6120/hdl/xlconcat_v2_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_xlconcat_0_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_xlconcat_0_0/synth/bd_quad_vmix_dp_xlconcat_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_quad_vmix_dp_zynq_ultra_ps_e_0_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_zynq_ultra_ps_e_0_0' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/.Xil/Vivado-1066032-ipaa-10xe/realtime/bd_quad_vmix_dp_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'saxigp2_bid' of module 'bd_quad_vmix_dp_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:831]
+WARNING: [Synth 8-7071] port 'saxigp2_rid' of module 'bd_quad_vmix_dp_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:831]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'bd_quad_vmix_dp_zynq_ultra_ps_e_0_0' has 83 connections declared, but only 81 given [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:831]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/synth/bd_quad_vmix_dp.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'bd_quad_vmix_dp_wrapper' (0#1) [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/hdl/bd_quad_vmix_dp_wrapper.v:13]
+WARNING: [Synth 8-7129] Port In2[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In3[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In6[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In7[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In8[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In9[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In10[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In11[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In12[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In13[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In14[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In15[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In16[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In17[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In18[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In19[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In20[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In21[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In22[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In23[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In24[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In25[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In26[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In27[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In28[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In29[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In30[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In31[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In32[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In33[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In34[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In35[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In36[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In37[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In38[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In39[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In40[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In41[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In42[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In43[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In44[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In45[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In46[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In47[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In48[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In49[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In50[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In51[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In52[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In53[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In54[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In55[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In56[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In57[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In58[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In59[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In60[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In61[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In62[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In63[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In64[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In65[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In66[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In67[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In68[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In69[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In70[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In71[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In72[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In73[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In74[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In75[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In76[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In77[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In78[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In79[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In80[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In81[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In82[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In83[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In84[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In85[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In86[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In87[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In88[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In89[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In90[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In91[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In92[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In93[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In94[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In95[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In96[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In97[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In98[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In99[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In100[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In101[0] in module xlconcat_v2_1_6_xlconcat is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2744.805 ; gain = 201.625 ; free physical = 87894 ; free virtual = 110081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2747.773 ; gain = 204.594 ; free physical = 87894 ; free virtual = 110081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2747.773 ; gain = 204.594 ; free physical = 87894 ; free virtual = 110081
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2747.773 ; gain = 0.000 ; free physical = 87894 ; free virtual = 110081
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_zynq_ultra_ps_e_0_0/bd_quad_vmix_dp_zynq_ultra_ps_e_0_0/bd_quad_vmix_dp_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/zynq_ultra_ps_e_0'
+create_clock: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2795.426 ; gain = 0.000 ; free physical = 87899 ; free virtual = 110086
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_zynq_ultra_ps_e_0_0/bd_quad_vmix_dp_zynq_ultra_ps_e_0_0/bd_quad_vmix_dp_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/zynq_ultra_ps_e_0'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_0_0/bd_quad_vmix_dp_v_tpg_0_0/bd_quad_vmix_dp_v_tpg_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_tpg_0'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_0_0/bd_quad_vmix_dp_v_tpg_0_0/bd_quad_vmix_dp_v_tpg_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_tpg_0'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_1_0/bd_quad_vmix_dp_v_tpg_1_0/bd_quad_vmix_dp_v_tpg_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_tpg_1'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_1_0/bd_quad_vmix_dp_v_tpg_1_0/bd_quad_vmix_dp_v_tpg_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_tpg_1'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_2_0/bd_quad_vmix_dp_v_tpg_2_0/bd_quad_vmix_dp_v_tpg_2_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_tpg_2'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_2_0/bd_quad_vmix_dp_v_tpg_2_0/bd_quad_vmix_dp_v_tpg_2_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_tpg_2'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/bd_quad_vmix_dp_v_tpg_3_0/bd_quad_vmix_dp_v_tpg_3_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_tpg_3'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_3_0/bd_quad_vmix_dp_v_tpg_3_0/bd_quad_vmix_dp_v_tpg_3_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_tpg_3'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_mix_0_0/bd_quad_vmix_dp_v_mix_0_0/bd_quad_vmix_dp_v_mix_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_mix_0'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_mix_0_0/bd_quad_vmix_dp_v_mix_0_0/bd_quad_vmix_dp_v_mix_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_mix_0'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/bd_quad_vmix_dp_v_frmbuf_wr_0_0/bd_quad_vmix_dp_v_frmbuf_wr_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_frmbuf_wr_0'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/bd_quad_vmix_dp_v_frmbuf_wr_0_0/bd_quad_vmix_dp_v_frmbuf_wr_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_frmbuf_wr_0'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_0/bd_quad_vmix_dp_smartconnect_0_0/bd_quad_vmix_dp_smartconnect_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/axi_smc_ctrl'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_0/bd_quad_vmix_dp_smartconnect_0_0/bd_quad_vmix_dp_smartconnect_0_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/axi_smc_ctrl'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_quad_vmix_dp_smartconnect_0_1/bd_quad_vmix_dp_smartconnect_0_1_in_context.xdc] for cell 'bd_quad_vmix_dp_i/axi_smc_data'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_smartconnect_0_1/bd_quad_vmix_dp_smartconnect_0_1/bd_quad_vmix_dp_smartconnect_0_1_in_context.xdc] for cell 'bd_quad_vmix_dp_i/axi_smc_data'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_4_0/bd_quad_vmix_dp_v_tpg_4_0/bd_quad_vmix_dp_v_tpg_4_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_tpg_4'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_tpg_4_0/bd_quad_vmix_dp_v_tpg_4_0/bd_quad_vmix_dp_v_tpg_4_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/v_tpg_4'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_rst_ps8_0_149M_0/bd_quad_vmix_dp_rst_ps8_0_149M_0/bd_quad_vmix_dp_rst_ps8_0_149M_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/rst_ps8_0_149M'
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_rst_ps8_0_149M_0/bd_quad_vmix_dp_rst_ps8_0_149M_0/bd_quad_vmix_dp_rst_ps8_0_149M_0_in_context.xdc] for cell 'bd_quad_vmix_dp_i/rst_ps8_0_149M'
+Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2795.426 ; gain = 0.000 ; free physical = 87899 ; free virtual = 110086
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2795.426 ; gain = 0.000 ; free physical = 87899 ; free virtual = 110086
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2795.426 ; gain = 252.246 ; free physical = 87889 ; free virtual = 110076
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2803.430 ; gain = 260.250 ; free physical = 87892 ; free virtual = 110079
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/v_tpg_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/v_tpg_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/v_tpg_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/v_tpg_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/v_mix_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/v_frmbuf_wr_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/axi_smc_ctrl. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/axi_smc_data. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/v_tpg_4. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/xlconcat_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for bd_quad_vmix_dp_i/rst_ps8_0_149M. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2803.430 ; gain = 260.250 ; free physical = 87890 ; free virtual = 110077
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 2803.430 ; gain = 260.250 ; free physical = 87890 ; free virtual = 110078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 2803.430 ; gain = 260.250 ; free physical = 87887 ; free virtual = 110080
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 3444.098 ; gain = 900.918 ; free physical = 87332 ; free virtual = 109524
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 3444.098 ; gain = 900.918 ; free physical = 87332 ; free virtual = 109524
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 3455.105 ; gain = 911.926 ; free physical = 87321 ; free virtual = 109514
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 3624.918 ; gain = 1081.738 ; free physical = 87183 ; free virtual = 109376
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 3624.918 ; gain = 1081.738 ; free physical = 87183 ; free virtual = 109376
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 3624.918 ; gain = 1081.738 ; free physical = 87182 ; free virtual = 109375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 3624.918 ; gain = 1081.738 ; free physical = 87182 ; free virtual = 109375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 3624.918 ; gain = 1081.738 ; free physical = 87182 ; free virtual = 109375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 3624.918 ; gain = 1081.738 ; free physical = 87182 ; free virtual = 109375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------------+----------+
+|      |BlackBox name                       |Instances |
++------+------------------------------------+----------+
+|1     |bd_quad_vmix_dp_smartconnect_0_0    |         1|
+|2     |bd_quad_vmix_dp_smartconnect_0_1    |         1|
+|3     |bd_quad_vmix_dp_rst_ps8_0_149M_0    |         1|
+|4     |bd_quad_vmix_dp_v_frmbuf_wr_0_0     |         1|
+|5     |bd_quad_vmix_dp_v_mix_0_0           |         1|
+|6     |bd_quad_vmix_dp_v_tpg_0_0           |         1|
+|7     |bd_quad_vmix_dp_v_tpg_1_0           |         1|
+|8     |bd_quad_vmix_dp_v_tpg_2_0           |         1|
+|9     |bd_quad_vmix_dp_v_tpg_3_0           |         1|
+|10    |bd_quad_vmix_dp_v_tpg_4_0           |         1|
+|11    |bd_quad_vmix_dp_zynq_ultra_ps_e_0_0 |         1|
++------+------------------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------------+------+
+|      |Cell                              |Count |
++------+----------------------------------+------+
+|1     |bd_quad_vmix_dp_rst_ps8_0_149M    |     1|
+|2     |bd_quad_vmix_dp_smartconnect_0    |     2|
+|4     |bd_quad_vmix_dp_v_frmbuf_wr_0     |     1|
+|5     |bd_quad_vmix_dp_v_mix_0           |     1|
+|6     |bd_quad_vmix_dp_v_tpg_0           |     1|
+|7     |bd_quad_vmix_dp_v_tpg_1           |     1|
+|8     |bd_quad_vmix_dp_v_tpg_2           |     1|
+|9     |bd_quad_vmix_dp_v_tpg_3           |     1|
+|10    |bd_quad_vmix_dp_v_tpg_4           |     1|
+|11    |bd_quad_vmix_dp_zynq_ultra_ps_e_0 |     1|
++------+----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 3624.918 ; gain = 1081.738 ; free physical = 87182 ; free virtual = 109375
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 3624.918 ; gain = 1034.086 ; free physical = 87183 ; free virtual = 109375
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 3624.918 ; gain = 1081.738 ; free physical = 87183 ; free virtual = 109375
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3624.918 ; gain = 0.000 ; free physical = 87182 ; free virtual = 109375
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3624.918 ; gain = 0.000 ; free physical = 87347 ; free virtual = 109540
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 377ed82e
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 142 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:55 ; elapsed = 00:00:52 . Memory (MB): peak = 3624.918 ; gain = 2114.949 ; free physical = 87348 ; free virtual = 109540
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2810.272; main = 2596.883; forked = 226.328
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4465.934; main = 3551.090; forked = 914.859
+INFO: [Common 17-1381] The checkpoint '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/synth_1/bd_quad_vmix_dp_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_quad_vmix_dp_wrapper_utilization_synth.rpt -pb bd_quad_vmix_dp_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 27 12:43:47 2026...
