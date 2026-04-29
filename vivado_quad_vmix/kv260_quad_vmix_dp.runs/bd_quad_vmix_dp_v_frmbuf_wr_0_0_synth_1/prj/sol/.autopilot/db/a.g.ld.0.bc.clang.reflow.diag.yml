@@ -1,0 +1,1933 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/src/hls/hls_axi_io.h, 
+                   Line: 85, Column: 2 }
+Function:        _ZN3hls15AXIGetBitFieldsILi48E7ap_uintILi8EEEEvNS_4axisIS1_IXT_EELm1ELm1ELm1ELh56ELb0EEEiiRT0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<48, ap_uint<8> >(ap_uint<48>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/src/hls/hls_axi_io.h, 
+                       Line: 60, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void hls::AXIGetBitFields<48, ap_uint<8> >(hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/src/hls/hls_axi_io.h, 
+                       Line: 83, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 254, Column: 18 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<6, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/src/hls/hls_video_core.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 248, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 318, Column: 6 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<48, ap_uint<8> >(hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<8>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/src/hls/hls_axi_io.h, 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 248, Column: 0 }
+  - String:          ''''
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 258, Column: 13 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - Callee:          'unsigned short reg<unsigned short>(unsigned short)'
+    DebugLoc:        { File: /mnt/ssd2/Xilinx/Vitis/2024.2/common/technology/autopilot/utils/x_hls_utils.h, 
+                       Line: 223, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 248, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 389, Column: 18 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<6, ap_uint<8> >::Scalar()'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/src/hls/hls_video_core.h, 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'MultiPixStream2Bytes(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, STREAM_PLANES&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 388, Column: 0 }
+  - String:          ''''
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 115, Column: 2 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_
+Args:            
+  - Callee:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 248, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 124, Column: 2 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_
+Args:            
+  - Callee:          'MultiPixStream2Bytes(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, STREAM_PLANES&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 388, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 126, Column: 2 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_
+Args:            
+  - Callee:          'Bytes2AXIMMvideo(STREAM_PLANES&, ap_uint<128>*&, ap_uint<128>*&, ap_uint<128>*&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 1493, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 225, Column: 2 }
+Function:        _Z11v_frmbuf_wrttttP7ap_uintILi128EES1_S1_RN3hls6streamINS2_4axisIS_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEE
+Args:            
+  - Callee:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_frmbuf_wr(unsigned short, unsigned short, unsigned short, unsigned short, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 145, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 108, Column: 9 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_
+Args:            
+  - String:          'Adding '''
+  - Name:            bytePlanes
+  - String:          ''' into disaggregation list because there''s '
+  - String:          stream pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_frmbuf_wr_0_0/src/hls/hls_video_core.h, 
+                   Line: 198, Column: 9 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 108, Column: 9 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_
+Args:            
+  - String:          'Adding '''
+  - Name:            bytePlanes
+  - String:          ''' into disaggregation list because there''s '
+  - String:          stream pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 254, Column: 18 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 389, Column: 18 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 93, Column: 16 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            bytePlanes
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1051, Column: 21 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1051_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1055, Column: 25 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1055_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1057, Column: 26 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1066, Column: 24 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1066_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1294, Column: 21 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1294_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1298, Column: 25 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1298_8
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1300, Column: 26 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1309, Column: 25 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1309_10
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 308, Column: 22 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_308_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 310, Column: 23 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_310_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1051_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1051:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1055_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1055:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1055_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1055:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1055_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1055:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1055_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1055:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1055_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1055:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1055_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1055:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1055_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1055:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1055_3
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1055:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1057_4
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1057:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1066_5
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1066:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1294_7
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1294:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1298_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1298:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1298_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1298:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1298_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1298:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1298_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1298:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1298_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1298:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1298_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1298:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1298_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1298:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1298_8
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1298:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1300_9
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1300:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 388, Column: 0 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1309_10
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1309:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2Bytes
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 248, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_308_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:308:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 248, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_310_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:310:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 248, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_310_2
+  - String:          ''' ('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:310:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 257, Column: 13 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - Callee:          'unsigned short reg<unsigned short>(unsigned short)'
+    DebugLoc:        { File: /mnt/ssd2/Xilinx/Vitis/2024.2/common/technology/autopilot/utils/x_hls_utils.h, 
+                       Line: 223, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 248, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 115, Column: 2 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_
+Args:            
+  - Callee:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 248, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 124, Column: 2 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_
+Args:            
+  - Callee:          'MultiPixStream2Bytes(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, STREAM_PLANES&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 388, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 126, Column: 2 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_
+Args:            
+  - Callee:          'Bytes2AXIMMvideo(STREAM_PLANES&, ap_uint<128>*&, ap_uint<128>*&, ap_uint<128>*&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 1493, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 225, Column: 2 }
+Function:        _Z11v_frmbuf_wrttttP7ap_uintILi128EES1_S1_RN3hls6streamINS2_4axisIS_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEE
+Args:            
+  - Callee:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_frmbuf_wr(unsigned short, unsigned short, unsigned short, unsigned short, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 145, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_v_frmbuf_wr_ir
+Args:            
+  - Callee:          'v_frmbuf_wr(unsigned short, unsigned short, unsigned short, unsigned short, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 145, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_v_frmbuf_wr_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 89, Column: 18 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            img
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '48'
+  - String:          '-bits'
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 268, Column: 2 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_wait_for_start
+  - String:          ' '
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:268:2'
+  - String:          ' '
+  - Function:        'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 248, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 365, Column: 3 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_wait_for_eol
+  - String:          ' '
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:365:3'
+  - String:          ' '
+  - Function:        'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 248, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1504, Column: 21 }
+Function:        _ZL16Bytes2AXIMMvideoR13STREAM_PLANESRP7ap_uintILi128EES4_S4_RtS5_S5_S5_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        scevgepseq
+  - ArrayName:       dstImg
+  - String:          ' '
+  - BundleName:      mm_video
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_1504_1
+  - String:          ' '
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1504:21'
+  - String:          ' '
+  - Function:        'Bytes2AXIMMvideo(STREAM_PLANES&, ap_uint<128>*&, ap_uint<128>*&, ap_uint<128>*&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 1493, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 1508, Column: 31 }
+  - OrigDirection:   write
+  - OrigID:          for.inc.store.7
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            IncompatibleStride
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1504, Column: 21 }
+Function:        _ZL16Bytes2AXIMMvideoR13STREAM_PLANESRP7ap_uintILi128EES4_S4_RtS5_S5_S5_
+Args:            
+  - String:          Stride is incompatible
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 1504, Column: 21 }
+  - OrigDirection:   write
+  - OrigID:          scevgepseq
+  - ArrayName:       dstImg
+  - String:          ' '
+  - BundleName:      mm_video
+  - String:          ' '
+  - LoopName:        loop_Bytes2AXIMMvideo_1plane
+  - String:          ' '
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1500:5'
+  - String:          ' '
+  - Function:        'Bytes2AXIMMvideo(STREAM_PLANES&, ap_uint<128>*&, ap_uint<128>*&, ap_uint<128>*&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 1493, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualThreshold
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1504, Column: 21 }
+Function:        _ZL16Bytes2AXIMMvideoR13STREAM_PLANESRP7ap_uintILi128EES4_S4_RtS5_S5_S5_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            i128
+  - String:          ' size is greater than or equal to the max_widen_bitwidth threshold of '
+  - Threshold:       '0'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 1504, Column: 21 }
+  - OrigDirection:   write
+  - OrigID:          scevgepseq
+  - ArrayName:       dstImg
+  - String:          ' '
+  - BundleName:      mm_video
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_1504_1
+  - String:          ' '
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1504:21'
+  - String:          ' '
+  - Function:        'Bytes2AXIMMvideo(STREAM_PLANES&, ap_uint<128>*&, ap_uint<128>*&, ap_uint<128>*&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 1493, Column: 0 }
+  - String:          ' '
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 365, Column: 3 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        loop_wait_for_eol
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:365:3'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 268, Column: 2 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        loop_wait_for_start
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:268:2'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1054, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then99
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1048_1
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1048:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1054, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then99.1
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1048_1
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1048:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1054, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then99.2
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1048_1
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1048:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1054, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then99.3
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1048_1
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1048:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1054, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then99.4
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1048_1
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1048:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1054, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then99.5
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1048_1
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1048:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1054, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then99.6
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1048_1
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1048:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1054, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then99.7
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1048_1
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1048:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1297, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then234
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1291_6
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1291:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1297, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then234.1
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1291_6
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1291:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1297, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then234.2
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1291_6
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1291:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1297, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then234.3
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1291_6
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1291:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1297, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then234.4
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1291_6
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1291:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1297, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then234.5
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1291_6
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1291:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1297, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then234.6
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1291_6
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1291:21'
+  - String:          ') .'
+...
+--- !Failure
+Pass:            reflow-occurrence-analysis
+Name:            CouldNotAnalyzeBBInfo
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1297, Column: 16 }
+Function:        _ZL20MultiPixStream2BytesRN3hls6streamINS_6ScalarILi6E7ap_uintILi8EEEELi0EEER13STREAM_PLANESRtS9_S9_S9_
+Args:            
+  - String:          'Could not analyze occurrence information for '''
+  - BBName:          if.then234.7
+  - String:          ''' living in '''
+  - LoopName:        VITIS_LOOP_1291_6
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1291:21'
+  - String:          ') .'
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1504, Column: 21 }
+Function:        _ZL16Bytes2AXIMMvideoR13STREAM_PLANESRP7ap_uintILi128EES4_S4_RtS5_S5_S5_.1
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length and bit width '
+  - Width:           '128'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      mm_video
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_1504_1
+  - String:          ' '
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1504:21'
+  - String:          ' '
+  - Function:        'Bytes2AXIMMvideo(STREAM_PLANES&, ap_uint<128>*&, ap_uint<128>*&, ap_uint<128>*&, unsigned short&, unsigned short&, unsigned short&, unsigned short&) (.1)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 1493, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 1504, Column: 21 }
+Function:        _ZL16Bytes2AXIMMvideoR13STREAM_PLANESRP7ap_uintILi128EES4_S4_RtS5_S5_S5_.1
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length and bit width '
+  - Width:           '128'
+  - String:          ' in loop '''
+  - LoopName:        VITIS_LOOP_1504_1
+  - String:          '''('
+  - LoopLoc:         '/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp:1504:21'
+  - String:          ')'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      mm_video
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 257, Column: 13 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi6ES2_ILi8EEEELi0EEERtSC_Rh
+Args:            
+  - Callee:          'unsigned short reg<unsigned short>(unsigned short)'
+    DebugLoc:        { File: /mnt/ssd2/Xilinx/Vitis/2024.2/common/technology/autopilot/utils/x_hls_utils.h, 
+                       Line: 223, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 248, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 115, Column: 2 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_.1
+Args:            
+  - Callee:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 248, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&) (.1)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 124, Column: 2 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_.1
+Args:            
+  - Callee:          'MultiPixStream2Bytes(hls::stream<hls::Scalar<6, ap_uint<8> >, 0>&, STREAM_PLANES&, unsigned short&, unsigned short&, unsigned short&, unsigned short&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 388, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&) (.1)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 126, Column: 2 }
+Function:        _ZL19FrmbufWrHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEER13HW_STRUCT_REGRtRhS9_S9_S9_S9_.1
+Args:            
+  - Callee:          'Bytes2AXIMMvideo(STREAM_PLANES&, ap_uint<128>*&, ap_uint<128>*&, ap_uint<128>*&, unsigned short&, unsigned short&, unsigned short&, unsigned short&) (.1)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 1493, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&) (.1)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                   Line: 225, Column: 2 }
+Function:        _Z11v_frmbuf_wrttttP7ap_uintILi128EES1_S1_RN3hls6streamINS2_4axisIS_ILi48EELm1ELm1ELm1ELh56ELb0EEELi0EEE
+Args:            
+  - Callee:          'FrmbufWrHlsDataFlow(hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, HW_STRUCT_REG&, unsigned short&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&) (.1)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 87, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          'v_frmbuf_wr(unsigned short, unsigned short, unsigned short, unsigned short, ap_uint<128>*, ap_uint<128>*, ap_uint<128>*, hls::stream<hls::axis<ap_uint<48>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&)'
+    DebugLoc:        { File: /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_frmbuf_wr_0_0_synth_1/prj/sol/.autopilot/db/v_frmbuf_wr.cpp, 
+                       Line: 145, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...

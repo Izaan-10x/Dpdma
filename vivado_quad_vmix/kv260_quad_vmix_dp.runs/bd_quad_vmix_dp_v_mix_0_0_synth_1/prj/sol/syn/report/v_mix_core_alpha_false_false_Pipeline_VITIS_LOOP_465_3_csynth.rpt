@@ -1,0 +1,183 @@
+
+
+================================================================
+== Vitis HLS Report for 'v_mix_core_alpha_false_false_Pipeline_VITIS_LOOP_465_3'
+================================================================
+* Date:           Mon Apr 27 12:26:49 2026
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        prj
+* Solution:       sol (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  6.67 ns|  4.530 ns|     1.80 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+-----------+-----+------+------------------------------------------------+
+    |  Latency (cycles) |  Latency (absolute)  |  Interval  |                    Pipeline                    |
+    |   min   |   max   |    min   |    max    | min |  max |                      Type                      |
+    +---------+---------+----------+-----------+-----+------+------------------------------------------------+
+    |       34|     1922|  0.227 us|  12.814 us|   33|  1921|  loop auto-rewind stp (delay=0 clock cycles(s))|
+    +---------+---------+----------+-----------+-----+------+------------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+-----------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  |    Trip   |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  |   Count   | Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+-----------+----------+
+        |- VITIS_LOOP_465_3  |       32|     1920|         2|          1|          1|  32 ~ 1920|       yes|
+        +--------------------+---------+---------+----------+-----------+-----------+-----------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|     101|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       0|     165|    -|
+|Register         |        -|     -|      64|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|      64|     266|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |      288|  1248|  234240|  117120|   64|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |add_ln465_fu_265_p2               |         +|   0|  0|  18|          11|           1|
+    |and_ln476_1_fu_303_p2             |       and|   0|  0|   2|           1|           1|
+    |and_ln476_2_fu_309_p2             |       and|   0|  0|   2|           1|           1|
+    |and_ln476_fu_297_p2               |       and|   0|  0|   2|           1|           1|
+    |ap_block_pp0_stage0_01001         |       and|   0|  0|   2|           1|           1|
+    |ap_condition_140                  |       and|   0|  0|   2|           1|           1|
+    |ap_predicate_op36_read_state2     |       and|   0|  0|   2|           1|           1|
+    |ap_predicate_op47_read_state2     |       and|   0|  0|   2|           1|           1|
+    |icmp_ln465_fu_259_p2              |      icmp|   0|  0|  18|          11|          11|
+    |icmp_ln477_fu_279_p2              |      icmp|   0|  0|  22|          15|          15|
+    |icmp_ln478_fu_291_p2              |      icmp|   0|  0|  23|          16|          16|
+    |ap_block_state2_pp0_stage0_iter1  |        or|   0|  0|   2|           1|           1|
+    |ap_enable_pp0                     |       xor|   0|  0|   2|           1|           2|
+    |xor_ln477_fu_285_p2               |       xor|   0|  0|   2|           1|           2|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0| 101|          63|          55|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------------------------+----+-----------+-----+-----------+
+    |                    Name                   | LUT| Input Size| Bits| Total Bits|
+    +-------------------------------------------+----+-----------+-----+-----------+
+    |ap_done_int                                |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1                    |   9|          2|    1|          2|
+    |ap_phi_mux_p_0_0_014_i_phi_fu_243_p6       |  14|          3|    8|         24|
+    |ap_phi_mux_p_0_0_0_11016_i_phi_fu_232_p6   |  14|          3|    8|         24|
+    |ap_phi_mux_p_0_0_0_120_i_phi_fu_210_p6     |  14|          3|    8|         24|
+    |ap_phi_mux_p_0_0_0_1_122_i_phi_fu_199_p6   |  14|          3|    8|         24|
+    |ap_phi_mux_p_0_0_0_1_224_i_phi_fu_188_p6   |  14|          3|    8|         24|
+    |ap_phi_mux_p_0_0_0_218_i_phi_fu_221_p6     |  14|          3|    8|         24|
+    |ap_phi_mux_storemerge_i_phi_fu_178_p4      |   9|          2|   48|         96|
+    |ap_phi_reg_pp0_iter1_storemerge_i_reg_175  |   9|          2|   48|         96|
+    |ap_sig_allocacmp_x_11                      |   9|          2|   11|         22|
+    |outLayer0_blk_n                            |   9|          2|    1|          2|
+    |outLayer1_blk_n                            |   9|          2|    1|          2|
+    |srcLayer1x_blk_n                           |   9|          2|    1|          2|
+    |x_fu_104                                   |   9|          2|   11|         22|
+    +-------------------------------------------+----+-----------+-----+-----------+
+    |Total                                      | 165|         36|  171|        390|
+    +-------------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------------------------+----+----+-----+-----------+
+    |                    Name                   | FF | LUT| Bits| Const Bits|
+    +-------------------------------------------+----+----+-----+-----------+
+    |and_ln476_2_reg_477                        |   1|   0|    1|          0|
+    |ap_CS_fsm                                  |   1|   0|    1|          0|
+    |ap_done_reg                                |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1                    |   1|   0|    1|          0|
+    |ap_phi_reg_pp0_iter1_storemerge_i_reg_175  |  48|   0|   48|          0|
+    |icmp_ln465_reg_473                         |   1|   0|    1|          0|
+    |x_fu_104                                   |  11|   0|   11|          0|
+    +-------------------------------------------+----+----+-----+-----------+
+    |Total                                      |  64|   0|   64|          0|
+    +-------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------------------+-----+-----+------------+----------------------------------------------------------+--------------+
+|           RTL Ports          | Dir | Bits|  Protocol  |                       Source Object                      |    C Type    |
++------------------------------+-----+-----+------------+----------------------------------------------------------+--------------+
+|ap_clk                        |   in|    1|  ap_ctrl_hs|  v_mix_core_alpha<false, false>_Pipeline_VITIS_LOOP_465_3|  return value|
+|ap_rst                        |   in|    1|  ap_ctrl_hs|  v_mix_core_alpha<false, false>_Pipeline_VITIS_LOOP_465_3|  return value|
+|ap_start                      |   in|    1|  ap_ctrl_hs|  v_mix_core_alpha<false, false>_Pipeline_VITIS_LOOP_465_3|  return value|
+|ap_done                       |  out|    1|  ap_ctrl_hs|  v_mix_core_alpha<false, false>_Pipeline_VITIS_LOOP_465_3|  return value|
+|ap_idle                       |  out|    1|  ap_ctrl_hs|  v_mix_core_alpha<false, false>_Pipeline_VITIS_LOOP_465_3|  return value|
+|ap_ready                      |  out|    1|  ap_ctrl_hs|  v_mix_core_alpha<false, false>_Pipeline_VITIS_LOOP_465_3|  return value|
+|outLayer0_dout                |   in|   48|     ap_fifo|                                                 outLayer0|       pointer|
+|outLayer0_empty_n             |   in|    1|     ap_fifo|                                                 outLayer0|       pointer|
+|outLayer0_read                |  out|    1|     ap_fifo|                                                 outLayer0|       pointer|
+|outLayer0_num_data_valid      |   in|    3|     ap_fifo|                                                 outLayer0|       pointer|
+|outLayer0_fifo_cap            |   in|    3|     ap_fifo|                                                 outLayer0|       pointer|
+|srcLayer1x_dout               |   in|   48|     ap_fifo|                                                srcLayer1x|       pointer|
+|srcLayer1x_empty_n            |   in|    1|     ap_fifo|                                                srcLayer1x|       pointer|
+|srcLayer1x_read               |  out|    1|     ap_fifo|                                                srcLayer1x|       pointer|
+|srcLayer1x_num_data_valid     |   in|    3|     ap_fifo|                                                srcLayer1x|       pointer|
+|srcLayer1x_fifo_cap           |   in|    3|     ap_fifo|                                                srcLayer1x|       pointer|
+|outLayer1_din                 |  out|   48|     ap_fifo|                                                 outLayer1|       pointer|
+|outLayer1_full_n              |   in|    1|     ap_fifo|                                                 outLayer1|       pointer|
+|outLayer1_write               |  out|    1|     ap_fifo|                                                 outLayer1|       pointer|
+|outLayer1_num_data_valid      |   in|   32|     ap_fifo|                                                 outLayer1|       pointer|
+|outLayer1_fifo_cap            |   in|   32|     ap_fifo|                                                 outLayer1|       pointer|
+|div_cast_i                    |   in|   11|   ap_stable|                                                div_cast_i|        scalar|
+|tmp_4_i                       |   in|   48|     ap_none|                                                   tmp_4_i|        scalar|
+|div65_cast_i                  |   in|   15|     ap_none|                                              div65_cast_i|        scalar|
+|div72_cast_i                  |   in|   16|     ap_none|                                              div72_cast_i|        scalar|
+|cmp61_i                       |   in|    1|     ap_none|                                                   cmp61_i|        scalar|
+|rev5                          |   in|    1|     ap_none|                                                      rev5|        scalar|
+|empty                         |   in|    1|     ap_none|                                                     empty|        scalar|
+|HwReg_layerEnable_val25_load  |   in|    1|     ap_none|                              HwReg_layerEnable_val25_load|        scalar|
++------------------------------+-----+-----+------------+----------------------------------------------------------+--------------+
+

@@ -1,0 +1,187 @@
+
+
+================================================================
+== Vitis HLS Report for 'AXIvideo2MultiPixStream_1_Pipeline_loop_width'
+================================================================
+* Date:           Mon Apr 27 12:26:32 2026
+
+* Version:        2024.2 (Build 5238294 on Nov  8 2024)
+* Project:        prj
+* Solution:       sol (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  6.67 ns|  1.838 ns|     1.80 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+------+------------------------------------------------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval  |                    Pipeline                    |
+    |   min   |   max   |    min    |    max    | min |  max |                      Type                      |
+    +---------+---------+-----------+-----------+-----+------+------------------------------------------------+
+    |        3|     1923|  20.001 ns|  12.821 us|    1|  1921|  loop auto-rewind stp (delay=0 clock cycles(s))|
+    +---------+---------+-----------+-----------+-----+------+------------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------+---------+---------+----------+-----------+-----------+----------+----------+
+        |              |  Latency (cycles) | Iteration|  Initiation Interval  |   Trip   |          |
+        |   Loop Name  |   min   |   max   |  Latency |  achieved |   target  |   Count  | Pipelined|
+        +--------------+---------+---------+----------+-----------+-----------+----------+----------+
+        |- loop_width  |        1|     1921|         3|          1|          1|  0 ~ 1920|       yes|
+        +--------------+---------+---------+----------+-----------+-----------+----------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 3
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 3, States = { 1 2 3 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.65>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%j = alloca i32 1" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105]   --->   Operation 6 'alloca' 'j' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%axi_data = alloca i32 1" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3076]   --->   Operation 7 'alloca' 'axi_data' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%axi_last = alloca i32 1" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3076]   --->   Operation 8 'alloca' 'axi_last' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln0 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i48 %s_axis_video_V_data_V, i6 %s_axis_video_V_keep_V, i6 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, void @empty_19"   --->   Operation 9 'specaxissidechannel' 'specaxissidechannel_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %s_axis_video_V_dest_V, void @empty_45, i32 0, i32 0, void @empty_53, i32 0, i32 0, void @empty_54, void @empty_54, void @empty_54, i32 0, i32 0, i32 0, i32 0, void @empty_54, void @empty_54, i32 4294967295, i32 0, i32 0"   --->   Operation 10 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %s_axis_video_V_id_V, void @empty_45, i32 0, i32 0, void @empty_53, i32 0, i32 0, void @empty_54, void @empty_54, void @empty_54, i32 0, i32 0, i32 0, i32 0, void @empty_54, void @empty_54, i32 4294967295, i32 0, i32 0"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %s_axis_video_V_last_V, void @empty_45, i32 0, i32 0, void @empty_53, i32 0, i32 0, void @empty_54, void @empty_54, void @empty_54, i32 0, i32 0, i32 0, i32 0, void @empty_54, void @empty_54, i32 4294967295, i32 0, i32 0"   --->   Operation 12 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %s_axis_video_V_user_V, void @empty_45, i32 0, i32 0, void @empty_53, i32 0, i32 0, void @empty_54, void @empty_54, void @empty_54, i32 0, i32 0, i32 0, i32 0, void @empty_54, void @empty_54, i32 4294967295, i32 0, i32 0"   --->   Operation 13 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i6 %s_axis_video_V_strb_V, void @empty_45, i32 0, i32 0, void @empty_53, i32 0, i32 0, void @empty_54, void @empty_54, void @empty_54, i32 0, i32 0, i32 0, i32 0, void @empty_54, void @empty_54, i32 4294967295, i32 0, i32 0"   --->   Operation 14 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i6 %s_axis_video_V_keep_V, void @empty_45, i32 0, i32 0, void @empty_53, i32 0, i32 0, void @empty_54, void @empty_54, void @empty_54, i32 0, i32 0, i32 0, i32 0, void @empty_54, void @empty_54, i32 4294967295, i32 0, i32 0"   --->   Operation 15 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i48 %s_axis_video_V_data_V, void @empty_45, i32 0, i32 0, void @empty_53, i32 0, i32 0, void @empty_54, void @empty_54, void @empty_54, i32 0, i32 0, i32 0, i32 0, void @empty_54, void @empty_54, i32 4294967295, i32 0, i32 0"   --->   Operation 16 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i48 %srcLayer0, void @empty_17, i32 0, i32 0, void @empty_54, i32 0, i32 0, void @empty_54, void @empty_54, void @empty_54, i32 0, i32 0, i32 0, i32 0, void @empty_54, void @empty_54, i32 4294967295, i32 0, i32 0"   --->   Operation 17 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%trunc_ln9_read = read i11 @_ssdm_op_Read.ap_auto.i11, i11 %trunc_ln9"   --->   Operation 18 'read' 'trunc_ln9_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%axi_data_24_read = read i48 @_ssdm_op_Read.ap_auto.i48, i48 %axi_data_24"   --->   Operation 19 'read' 'axi_data_24_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%axi_last_28_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %axi_last_28"   --->   Operation 20 'read' 'axi_last_28_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%sof_13_read = read i1 @_ssdm_op_Read.ap_auto.i1, i1 %sof_13"   --->   Operation 21 'read' 'sof_13_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.42ns)   --->   "%store_ln3076 = store i1 %axi_last_28_read, i1 %axi_last" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3076]   --->   Operation 22 'store' 'store_ln3076' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 23 [1/1] (0.42ns)   --->   "%store_ln3076 = store i48 %axi_data_24_read, i48 %axi_data" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3076]   --->   Operation 23 'store' 'store_ln3076' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 24 [1/1] (0.42ns)   --->   "%store_ln3105 = store i11 0, i11 %j" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105]   --->   Operation 24 'store' 'store_ln3105' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 25 [1/1] (0.42ns)   --->   "%br_ln3105 = br void %for.body12" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105]   --->   Operation 25 'br' 'br_ln3105' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%j_7 = load i11 %j" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105]   --->   Operation 26 'load' 'j_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.79ns)   --->   "%icmp_ln3105 = icmp_eq  i11 %j_7, i11 %trunc_ln9_read" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105]   --->   Operation 27 'icmp' 'icmp_ln3105' <Predicate = true> <Delay = 0.79> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.79> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 28 [1/1] (0.79ns)   --->   "%j_8 = add i11 %j_7, i11 1" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105]   --->   Operation 28 'add' 'j_8' <Predicate = true> <Delay = 0.79> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.79> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%br_ln3105 = br i1 %icmp_ln3105, void %for.body12.split, void %loop_wait_for_eol.loopexit.exitStub" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105]   --->   Operation 29 'br' 'br_ln3105' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.42ns)   --->   "%store_ln3105 = store i11 %j_8, i11 %j" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105]   --->   Operation 30 'store' 'store_ln3105' <Predicate = (!icmp_ln3105)> <Delay = 0.42>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%br_ln3105 = br void %for.body12" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105]   --->   Operation 31 'br' 'br_ln3105' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 0.79>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%eol = phi i1 0, void %newFuncRoot, i1 %axi_last_12, void %if.end"   --->   Operation 32 'phi' 'eol' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (0.00ns)   --->   "%sof = phi i1 %sof_13_read, void %newFuncRoot, i1 0, void %if.end"   --->   Operation 33 'phi' 'sof' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 34 [1/1] (0.00ns)   --->   "%speclooptripcount_ln0 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 0, i64 1920, i64 0"   --->   Operation 34 'speclooptripcount' 'speclooptripcount_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 35 [1/1] (0.00ns)   --->   "%specpipeline_ln3108 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_54" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3108]   --->   Operation 35 'specpipeline' 'specpipeline_ln3108' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+ST_2 : Operation 36 [1/1] (0.00ns)   --->   "%specloopname_ln3105 = specloopname void @_ssdm_op_SpecLoopName, void @empty_48" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105]   --->   Operation 36 'specloopname' 'specloopname_ln3105' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+ST_2 : Operation 37 [1/1] (0.28ns)   --->   "%or_ln3109 = or i1 %sof, i1 %eol" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3109]   --->   Operation 37 'or' 'or_ln3109' <Predicate = (!icmp_ln3105)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 38 [1/1] (0.00ns)   --->   "%br_ln3109 = br i1 %or_ln3109, void %if.else, void %if.end" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3109]   --->   Operation 38 'br' 'br_ln3109' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+ST_2 : Operation 39 [1/1] (0.07ns)   --->   "%empty = read i64 @_ssdm_op_Read.axis.volatile.i48P0A.i6P0A.i6P0A.i1P0A.i1P0A.i1P0A.i1P0A, i48 %s_axis_video_V_data_V, i6 %s_axis_video_V_keep_V, i6 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3116]   --->   Operation 39 'read' 'empty' <Predicate = (!icmp_ln3105 & !or_ln3109)> <Delay = 0.07> <CoreInst = "regslice">   --->   Core 147 'regslice' <Latency = 0> <II = 1> <Delay = 0.69> <Adapter> <Opcode : 'read' 'write'>
+ST_2 : Operation 40 [1/1] (0.00ns)   --->   "%axi_data_6 = extractvalue i64 %empty" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3116]   --->   Operation 40 'extractvalue' 'axi_data_6' <Predicate = (!icmp_ln3105 & !or_ln3109)> <Delay = 0.00>
+ST_2 : Operation 41 [1/1] (0.00ns)   --->   "%axi_last_13 = extractvalue i64 %empty" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3116]   --->   Operation 41 'extractvalue' 'axi_last_13' <Predicate = (!icmp_ln3105 & !or_ln3109)> <Delay = 0.00>
+ST_2 : Operation 42 [1/1] (0.42ns)   --->   "%store_ln3076 = store i1 %axi_last_13, i1 %axi_last" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3076]   --->   Operation 42 'store' 'store_ln3076' <Predicate = (!icmp_ln3105 & !or_ln3109)> <Delay = 0.42>
+ST_2 : Operation 43 [1/1] (0.42ns)   --->   "%store_ln3076 = store i48 %axi_data_6, i48 %axi_data" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3076]   --->   Operation 43 'store' 'store_ln3076' <Predicate = (!icmp_ln3105 & !or_ln3109)> <Delay = 0.42>
+ST_2 : Operation 44 [1/1] (0.00ns)   --->   "%br_ln0 = br void %if.end"   --->   Operation 44 'br' 'br_ln0' <Predicate = (!icmp_ln3105 & !or_ln3109)> <Delay = 0.00>
+ST_2 : Operation 53 [1/1] (0.00ns)   --->   "%axi_data_load = load i48 %axi_data"   --->   Operation 53 'load' 'axi_data_load' <Predicate = (icmp_ln3105)> <Delay = 0.00>
+ST_2 : Operation 54 [1/1] (0.00ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_auto.i1P0A, i1 %eol_out, i1 %eol"   --->   Operation 54 'write' 'write_ln0' <Predicate = (icmp_ln3105)> <Delay = 0.00>
+ST_2 : Operation 55 [1/1] (0.00ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_auto.i48P0A, i48 %axi_data_25_out, i48 %axi_data_load"   --->   Operation 55 'write' 'write_ln0' <Predicate = (icmp_ln3105)> <Delay = 0.00>
+ST_2 : Operation 56 [1/1] (0.42ns)   --->   "%ret_ln0 = ret"   --->   Operation 56 'ret' 'ret_ln0' <Predicate = (icmp_ln3105)> <Delay = 0.42>
+
+State 3 <SV = 2> <Delay = 1.83>
+ST_3 : Operation 45 [1/1] (0.00ns)   --->   "%axi_data_8 = load i48 %axi_data" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3147]   --->   Operation 45 'load' 'axi_data_8' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+ST_3 : Operation 46 [1/1] (0.00ns)   --->   "%axi_last_12 = load i1 %axi_last"   --->   Operation 46 'load' 'axi_last_12' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+ST_3 : Operation 47 [1/1] (0.00ns)   --->   "%tmp_8 = partselect i8 @_ssdm_op_PartSelect.i8.i48.i32, i48 %axi_data_8, i32 16" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_mix_0_0/src/hls/hls_axi_io.h:63->/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.gen/sources_1/bd/bd_quad_vmix_dp/ip/bd_quad_vmix_dp_v_mix_0_0/src/hls/hls_axi_io.h:85->/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3131]   --->   Operation 47 'partselect' 'tmp_8' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+ST_3 : Operation 48 [1/1] (0.00ns)   --->   "%tmp_s = partselect i8 @_ssdm_op_PartSelect.i8.i48.i32.i32, i48 %axi_data_8, i32 40, i32 47" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3147]   --->   Operation 48 'partselect' 'tmp_s' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+ST_3 : Operation 49 [1/1] (0.00ns)   --->   "%tmp_1 = partselect i16 @_ssdm_op_PartSelect.i16.i48.i32.i32, i48 %axi_data_8, i32 24, i32 39" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3147]   --->   Operation 49 'partselect' 'tmp_1' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+ST_3 : Operation 50 [1/1] (0.00ns)   --->   "%trunc_ln3147 = trunc i48 %axi_data_8" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3147]   --->   Operation 50 'trunc' 'trunc_ln3147' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+ST_3 : Operation 51 [1/1] (0.00ns)   --->   "%or_ln3147_s = bitconcatenate i48 @_ssdm_op_BitConcatenate.i48.i16.i8.i16.i8, i16 %tmp_1, i8 %tmp_s, i16 %trunc_ln3147, i8 %tmp_8" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3147]   --->   Operation 51 'bitconcatenate' 'or_ln3147_s' <Predicate = (!icmp_ln3105)> <Delay = 0.00>
+ST_3 : Operation 52 [1/1] ( I:1.83ns O:1.83ns )   --->   "%write_ln3147 = write void @_ssdm_op_Write.ap_fifo.volatile.i48P0A, i48 %srcLayer0, i48 %or_ln3147_s" [/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3147]   --->   Operation 52 'write' 'write_ln3147' <Predicate = (!icmp_ln3105)> <Delay = 1.83> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 48> <Depth = 2> <FIFO>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 6.667ns, clock uncertainty: 1.800ns.
+
+ <State 1>: 1.652ns
+The critical path consists of the following:
+	'store' operation 0 bit ('store_ln3105', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105) of constant 0 on local variable 'j', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105 [33]  (0.427 ns)
+	'load' operation 11 bit ('j', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105) on local variable 'j', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105 [38]  (0.000 ns)
+	'add' operation 11 bit ('j', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105) [41]  (0.798 ns)
+	'store' operation 0 bit ('store_ln3105', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105) of variable 'j', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105 on local variable 'j', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3105 [64]  (0.427 ns)
+
+ <State 2>: 0.792ns
+The critical path consists of the following:
+	'phi' operation 1 bit ('axi.last') with incoming values : ('axi.last') [36]  (0.000 ns)
+	'or' operation 1 bit ('or_ln3109', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3109) [46]  (0.287 ns)
+	axis read operation ('empty', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3116) on port 's_axis_video_V_data_V' (/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3116) [49]  (0.079 ns)
+	'store' operation 0 bit ('store_ln3076', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3076) of variable 'axi.last', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3116 on local variable 'axi.last', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3076 [52]  (0.427 ns)
+
+ <State 3>: 1.838ns
+The critical path consists of the following:
+	'load' operation 48 bit ('axi.data', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3147) on local variable 'axi.data', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3076 [56]  (0.000 ns)
+	fifo write operation ('write_ln3147', /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3147) on port 'srcLayer0' (/home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_mix.cpp:3147) [63]  (1.838 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

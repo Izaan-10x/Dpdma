@@ -1,0 +1,4 @@
+4 warnings and 28 errors generated.
+Error while processing /home/izaan/GitRepos/dpdma_exdes/vivado_quad_vmix/kv260_quad_vmix_dp.runs/bd_quad_vmix_dp_v_mix_0_0_synth_1/prj/sol/.autopilot/db/v_csc.pp.0.cpp.
+clang-tidy applied 404 of 404 suggested fixes.
+Suppressed 4 warnings (4 with check filters).

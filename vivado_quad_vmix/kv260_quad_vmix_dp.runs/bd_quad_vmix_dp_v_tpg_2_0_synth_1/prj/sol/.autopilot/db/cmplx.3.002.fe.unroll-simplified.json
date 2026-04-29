@@ -1,0 +1,225 @@
+{
+  "0": {
+    "basicblocks": 5,
+    "calls": "9 3",
+    "file": "v_tpg.cpp",
+    "fileloc": 409,
+    "instructions": 66,
+    "loads": {
+      "G": 2,
+      "T": 1
+    },
+    "name": "v_tpg",
+    "stores": {
+      "G": 3
+    },
+    "total_instructions": 2166
+  },
+  "1": {
+    "basicblocks": 17,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1869,
+    "instructions": 130,
+    "loads": {
+      "G": 8,
+      "L": 6
+    },
+    "name": "tpgPatternBox",
+    "stores": {
+      "G": 6,
+      "L": 12
+    },
+    "total_instructions": 130
+  },
+  "10": {
+    "basicblocks": 16,
+    "calls": "1 11 2",
+    "file": "v_tpg.cpp",
+    "fileloc": 759,
+    "instructions": 233,
+    "loads": {
+      "L": 42
+    },
+    "name": "tpgForeground",
+    "stores": {
+      "L": 54
+    },
+    "total_instructions": 501
+  },
+  "11": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1956,
+    "instructions": 70,
+    "loads": {
+      "G": 2,
+      "L": 6
+    },
+    "name": "tpgPatternCrossHair",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 70
+  },
+  "12": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1115,
+    "instructions": 16,
+    "name": "tpgPatternTemporalRamp",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 16
+  },
+  "13": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1193,
+    "instructions": 48,
+    "loads": {
+      "G": 2
+    },
+    "name": "tpgPatternSolidBlack",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 48
+  },
+  "14": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1527,
+    "instructions": 30,
+    "loads": {
+      "G": 1
+    },
+    "name": "tpgPatternVerticalHorizontalRamp",
+    "stores": {
+      "G": 2,
+      "L": 6
+    },
+    "total_instructions": 30
+  },
+  "2": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1983,
+    "instructions": 68,
+    "loads": {
+      "L": 6
+    },
+    "name": "tpgPatternMask",
+    "stores": {
+      "L": 12
+    },
+    "total_instructions": 68
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "4 10 5",
+    "file": "v_tpg.cpp",
+    "fileloc": 304,
+    "instructions": 10,
+    "name": "v_tpgHlsDataFlow",
+    "total_instructions": 2099
+  },
+  "4": {
+    "basicblocks": 27,
+    "calls": "8 6 12 13 13 13 13 13 13 13 13 13 13 14 13 7 13 13 13",
+    "file": "v_tpg.cpp",
+    "fileloc": 536,
+    "instructions": 509,
+    "loads": {
+      "G": 5,
+      "L": 125
+    },
+    "name": "tpgBackground",
+    "stores": {
+      "G": 1,
+      "L": 114
+    },
+    "total_instructions": 1414
+  },
+  "5": {
+    "basicblocks": 34,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 919,
+    "instructions": 174,
+    "loads": {
+      "G": 3,
+      "L": 5
+    },
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "G": 2,
+      "L": 11
+    },
+    "total_instructions": 174
+  },
+  "6": {
+    "basicblocks": 6,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1090,
+    "instructions": 30,
+    "loads": {
+      "G": 2
+    },
+    "name": "tpgPatternVerticalRamp",
+    "stores": {
+      "G": 2,
+      "L": 6
+    },
+    "total_instructions": 30
+  },
+  "7": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1823,
+    "instructions": 129,
+    "loads": {
+      "G": 3,
+      "L": 2
+    },
+    "name": "tpgPRBS",
+    "stores": {
+      "G": 3,
+      "L": 10
+    },
+    "total_instructions": 129
+  },
+  "8": {
+    "basicblocks": 3,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1067,
+    "instructions": 28,
+    "loads": {
+      "G": 1
+    },
+    "name": "tpgPatternHorizontalRamp",
+    "stores": {
+      "G": 2,
+      "L": 6
+    },
+    "total_instructions": 28
+  },
+  "9": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  }
+}

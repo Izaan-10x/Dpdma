@@ -1,0 +1,1391 @@
+{
+    "1": {
+        "name": "v_mix_yuv2rgb<false>.18_Pipeline_VITIS_LOOP_897_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "841",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "2": {
+        "name": "v_mix_core_alpha<false, false>",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "717",
+        "instructions": "75",
+        "total_instructions": "191",
+        "calls": "8 24",
+        "basicblocks": "4",
+        "loads": {
+            "L": "7"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "v_mix_core_alpha<false, false>.22_Pipeline_VITIS_LOOP_465_3",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "440",
+        "instructions": "55",
+        "total_instructions": "55",
+        "calls": "",
+        "basicblocks": "7",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "4": {
+        "name": "AXIvideo2MultiPixStream.5_Pipeline_loop_wait_for_eol",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "691",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "5": {
+        "name": "v_mix_core_alpha<false, false>.21_Pipeline_VITIS_LOOP_465_3",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "856",
+        "instructions": "55",
+        "total_instructions": "55",
+        "calls": "",
+        "basicblocks": "7",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "6": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "900",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "7": {
+        "name": "AXIvideo2MultiPixStream.15_Pipeline_loop_width",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "830",
+        "instructions": "51",
+        "total_instructions": "51",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "8": {
+        "name": "v_mix_core_alpha<false, false>_Pipeline_VITIS_LOOP_456_1",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "717",
+        "instructions": "56",
+        "total_instructions": "56",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "13"
+        },
+        "stores": {
+            "L": "8"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "9": {
+        "name": "AXIvideo2MultiPixStream.15_Pipeline_loop_wait_for_start",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "830",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "3"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "10": {
+        "name": "v_mix_422_to_444<false>.12_Pipeline_VITIS_LOOP_105_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "769",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "11": {
+        "name": "v_mix_upsample<false>.9_Pipeline_VITIS_LOOP_107_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "709",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "12": {
+        "name": "AXIvideo2MultiPixStream.5",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "691",
+        "instructions": "54",
+        "total_instructions": "165",
+        "calls": "52 52 62 43 4",
+        "basicblocks": "6",
+        "loads": {
+            "L": "6"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "13": {
+        "name": "v_mix_422_to_444<false>.17_Pipeline_VITIS_LOOP_105_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "838",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "14": {
+        "name": "AXIvideo2MultiPixStream.1_Pipeline_loop_wait_for_start",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "3076",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "3"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "15": {
+        "name": "v_mix_rgb2yuv<false>",
+        "file": "v_csc.cpp",
+        "fileloc": "1013",
+        "instructions": "20",
+        "total_instructions": "38",
+        "calls": "33",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "16": {
+        "name": "v_mix_422_to_444<false>.3_Pipeline_VITIS_LOOP_105_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "89",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "17": {
+        "name": "v_mix_yuv2rgb<false>.13_Pipeline_VITIS_LOOP_897_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "772",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "18": {
+        "name": "AXIvideo2MultiPixStream.15_Pipeline_loop_wait_for_eol",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "830",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "19": {
+        "name": "AXIvideo2MultiPixStream.1_Pipeline_loop_width",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "3076",
+        "instructions": "51",
+        "total_instructions": "51",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "20": {
+        "name": "AXIvideo2MultiPixStream.1_Pipeline_loop_wait_for_eol",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "3076",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "21": {
+        "name": "v_mix_420_to_422<false>.11",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "766",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "50",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "22": {
+        "name": "entry_proc",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "0",
+        "instructions": "40",
+        "total_instructions": "40",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "23": {
+        "name": "v_mix_upsample<false>",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "918",
+        "instructions": "29",
+        "total_instructions": "47",
+        "calls": "46",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "24": {
+        "name": "v_mix_core_alpha<false, false>_Pipeline_VITIS_LOOP_465_3",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "717",
+        "instructions": "60",
+        "total_instructions": "60",
+        "calls": "",
+        "basicblocks": "9",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "25": {
+        "name": "v_mix_420_to_422<false>",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "905",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "64",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "26": {
+        "name": "AXIvideo2MultiPixStream.1",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "3072",
+        "instructions": "50",
+        "total_instructions": "163",
+        "calls": "59 59 14 19 20",
+        "basicblocks": "6",
+        "loads": {
+            "L": "6"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "27": {
+        "name": "v_mix_upsample<false>.19_Pipeline_VITIS_LOOP_107_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "848",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "28": {
+        "name": "v_mix_420_to_422<false>.16",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "835",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "45",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "29": {
+        "name": "AXIvideo2MultiPixStream.10",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "761",
+        "instructions": "54",
+        "total_instructions": "165",
+        "calls": "52 52 68 61 67",
+        "basicblocks": "6",
+        "loads": {
+            "L": "6"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "30": {
+        "name": "v_mix_422_to_444<false>.3",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "89",
+        "instructions": "26",
+        "total_instructions": "44",
+        "calls": "16",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "31": {
+        "name": "v_mix_upsample<false>.14_Pipeline_VITIS_LOOP_107_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "779",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "32": {
+        "name": "v_mix_yuv2rgb<false>.4_Pipeline_VITIS_LOOP_897_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "867",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "33": {
+        "name": "v_mix_rgb2yuv<false>_Pipeline_VITIS_LOOP_1042_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "1034",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "34": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_width",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "900",
+        "instructions": "51",
+        "total_instructions": "51",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "35": {
+        "name": "v_mix_420_to_422<false>.2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "60",
+        "instructions": "26",
+        "total_instructions": "44",
+        "calls": "75",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "36": {
+        "name": "v_mix_422_to_444<false>.12",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "769",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "10",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "37": {
+        "name": "v_mix_core_alpha<false, false>.20",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "787",
+        "instructions": "53",
+        "total_instructions": "108",
+        "calls": "72",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "38": {
+        "name": "v_mix_yuv2rgb<false>.8",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "702",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "56",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "39": {
+        "name": "v_mix_422_to_444<false>",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "908",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "69",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "40": {
+        "name": "AXIvideo2MultiPixStream.15",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "830",
+        "instructions": "54",
+        "total_instructions": "165",
+        "calls": "52 52 9 7 18",
+        "basicblocks": "6",
+        "loads": {
+            "L": "6"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "41": {
+        "name": "v_mix_upsample<false>.9",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "709",
+        "instructions": "29",
+        "total_instructions": "47",
+        "calls": "11",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "42": {
+        "name": "v_mix_core_alpha<false, false>.21",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "856",
+        "instructions": "53",
+        "total_instructions": "108",
+        "calls": "5",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "43": {
+        "name": "AXIvideo2MultiPixStream.5_Pipeline_loop_width",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "691",
+        "instructions": "51",
+        "total_instructions": "51",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "44": {
+        "name": "v_mix_yuv2rgb<false>.4",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "867",
+        "instructions": "24",
+        "total_instructions": "42",
+        "calls": "32",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "45": {
+        "name": "v_mix_420_to_422<false>.16_Pipeline_VITIS_LOOP_76_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "835",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "46": {
+        "name": "v_mix_upsample<false>_Pipeline_VITIS_LOOP_107_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "918",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "47": {
+        "name": "v_mix_444_to_422<false>_Pipeline_VITIS_LOOP_718_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "709",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "48": {
+        "name": "v_mix_422_to_444<false>.17",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "838",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "13",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "49": {
+        "name": "v_mix_420_to_422<false>.6",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "696",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "74",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "50": {
+        "name": "v_mix_420_to_422<false>.11_Pipeline_VITIS_LOOP_76_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "766",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "51": {
+        "name": "v_mix_yuv2rgb<false>.18",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "841",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "1",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "52": {
+        "name": "reg<unsigned short>",
+        "file": "x_hls_utils.h",
+        "fileloc": "222",
+        "instructions": "4",
+        "total_instructions": "4",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "53": {
+        "name": "v_mix_422_to_444<false>.7",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "699",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "65",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "54": {
+        "name": "v_mix_422_to_420<false>",
+        "file": "v_csc.cpp",
+        "fileloc": "493",
+        "instructions": "20",
+        "total_instructions": "38",
+        "calls": "66",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "55": {
+        "name": "v_mix_yuv2rgb<false>_Pipeline_VITIS_LOOP_897_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "911",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "56": {
+        "name": "v_mix_yuv2rgb<false>.8_Pipeline_VITIS_LOOP_897_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "702",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "57": {
+        "name": "v_mix_444_to_422<false>",
+        "file": "v_csc.cpp",
+        "fileloc": "702",
+        "instructions": "20",
+        "total_instructions": "38",
+        "calls": "47",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "58": {
+        "name": "MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_3233_3",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "3178",
+        "instructions": "29",
+        "total_instructions": "29",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "59": {
+        "name": "reg<unsigned short>1",
+        "file": "\/mnt\/ssd2\/Xilinx\/Vitis\/2024.2\/common\/technology\/autopilot\/utils\/x_hls_utils.h",
+        "fileloc": "222",
+        "instructions": "5",
+        "total_instructions": "5",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "60": {
+        "name": "AXIvideo2MultiPixStream",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "900",
+        "instructions": "54",
+        "total_instructions": "165",
+        "calls": "52 52 76 34 6",
+        "basicblocks": "6",
+        "loads": {
+            "L": "6"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "61": {
+        "name": "AXIvideo2MultiPixStream.10_Pipeline_loop_width",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "761",
+        "instructions": "51",
+        "total_instructions": "51",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "62": {
+        "name": "AXIvideo2MultiPixStream.5_Pipeline_loop_wait_for_start",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "691",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "3"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "63": {
+        "name": "v_mix_yuv2rgb<false>.13",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "772",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "17",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "64": {
+        "name": "v_mix_420_to_422<false>_Pipeline_VITIS_LOOP_76_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "905",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "65": {
+        "name": "v_mix_422_to_444<false>.7_Pipeline_VITIS_LOOP_105_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "699",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "66": {
+        "name": "v_mix_422_to_420<false>_Pipeline_VITIS_LOOP_508_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "500",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "67": {
+        "name": "AXIvideo2MultiPixStream.10_Pipeline_loop_wait_for_eol",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "761",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "68": {
+        "name": "AXIvideo2MultiPixStream.10_Pipeline_loop_wait_for_start",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "761",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "3"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "69": {
+        "name": "v_mix_422_to_444<false>_Pipeline_VITIS_LOOP_105_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "908",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "70": {
+        "name": "v_mix_yuv2rgb<false>",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "911",
+        "instructions": "31",
+        "total_instructions": "49",
+        "calls": "55",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "71": {
+        "name": "v_mix_upsample<false>.14",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "779",
+        "instructions": "29",
+        "total_instructions": "47",
+        "calls": "31",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "72": {
+        "name": "v_mix_core_alpha<false, false>.20_Pipeline_VITIS_LOOP_465_3",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "787",
+        "instructions": "55",
+        "total_instructions": "55",
+        "calls": "",
+        "basicblocks": "7",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "73": {
+        "name": "VMixHlsDataFlowFunction",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "498",
+        "instructions": "403",
+        "total_instructions": "2866",
+        "calls": "22 26 35 30 44 12 49 53 38 41 2 29 21 36 63 71 37 40 28 48 51 79 42 60 25 39 70 23 77 15 57 54 78",
+        "basicblocks": "1"
+    },
+    "74": {
+        "name": "v_mix_420_to_422<false>.6_Pipeline_VITIS_LOOP_76_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "696",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "75": {
+        "name": "v_mix_420_to_422<false>.2_Pipeline_VITIS_LOOP_76_2",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_csc.cpp",
+        "fileloc": "60",
+        "instructions": "18",
+        "total_instructions": "18",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "v_mix",
+        "file": "v_mix.cpp",
+        "fileloc": "1812",
+        "instructions": "423",
+        "total_instructions": "3289",
+        "calls": "73",
+        "basicblocks": "3",
+        "loads": {
+            "L": "26"
+        },
+        "stores": {
+            "L": "27"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "76": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "900",
+        "instructions": "26",
+        "total_instructions": "26",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "3"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "77": {
+        "name": "v_mix_core_alpha<false, false>.22",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "440",
+        "instructions": "51",
+        "total_instructions": "106",
+        "calls": "3",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "78": {
+        "name": "MultiPixStream2AXIvideo",
+        "file": "v_mix.cpp",
+        "fileloc": "3172",
+        "instructions": "28",
+        "total_instructions": "67",
+        "calls": "59 59 58",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "79": {
+        "name": "v_mix_upsample<false>.19",
+        "file": "\/home\/izaan\/GitRepos\/dpdma_exdes\/vivado_quad_vmix\/kv260_quad_vmix_dp.runs\/bd_quad_vmix_dp_v_mix_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_mix.cpp",
+        "fileloc": "848",
+        "instructions": "29",
+        "total_instructions": "47",
+        "calls": "27",
+        "basicblocks": "6",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

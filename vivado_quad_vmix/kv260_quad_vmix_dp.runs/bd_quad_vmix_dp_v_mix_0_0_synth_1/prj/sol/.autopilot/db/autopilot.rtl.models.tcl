@@ -1,0 +1,230 @@
+set SynModuleInfo {
+  {SRCNAME entry_proc MODELNAME entry_proc RTLNAME bd_quad_vmix_dp_v_mix_0_0_entry_proc}
+  {SRCNAME {reg<unsigned short>1} MODELNAME reg_unsigned_short_1 RTLNAME bd_quad_vmix_dp_v_mix_0_0_reg_unsigned_short_1}
+  {SRCNAME AXIvideo2MultiPixStream.1_Pipeline_loop_wait_for_start MODELNAME AXIvideo2MultiPixStream_1_Pipeline_loop_wait_for_start RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_1_Pipeline_loop_wait_for_start
+    SUBMODULES {
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_flow_control_loop_pipe_sequential_init RTLNAME bd_quad_vmix_dp_v_mix_0_0_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME bd_quad_vmix_dp_v_mix_0_0_flow_control_loop_pipe_sequential_init_U}
+    }
+  }
+  {SRCNAME AXIvideo2MultiPixStream.1_Pipeline_loop_width MODELNAME AXIvideo2MultiPixStream_1_Pipeline_loop_width RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_1_Pipeline_loop_width}
+  {SRCNAME AXIvideo2MultiPixStream.1_Pipeline_loop_wait_for_eol MODELNAME AXIvideo2MultiPixStream_1_Pipeline_loop_wait_for_eol RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_1_Pipeline_loop_wait_for_eol}
+  {SRCNAME AXIvideo2MultiPixStream.1 MODELNAME AXIvideo2MultiPixStream_1 RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_1}
+  {SRCNAME v_mix_420_to_422<false>.2_Pipeline_VITIS_LOOP_76_2 MODELNAME v_mix_420_to_422_false_2_Pipeline_VITIS_LOOP_76_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_420_to_422_false_2_Pipeline_VITIS_LOOP_76_2}
+  {SRCNAME v_mix_420_to_422<false>.2 MODELNAME v_mix_420_to_422_false_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_420_to_422_false_2}
+  {SRCNAME v_mix_422_to_444<false>.3_Pipeline_VITIS_LOOP_105_2 MODELNAME v_mix_422_to_444_false_3_Pipeline_VITIS_LOOP_105_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_444_false_3_Pipeline_VITIS_LOOP_105_2}
+  {SRCNAME v_mix_422_to_444<false>.3 MODELNAME v_mix_422_to_444_false_3 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_444_false_3}
+  {SRCNAME v_mix_yuv2rgb<false>.4_Pipeline_VITIS_LOOP_897_2 MODELNAME v_mix_yuv2rgb_false_4_Pipeline_VITIS_LOOP_897_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_yuv2rgb_false_4_Pipeline_VITIS_LOOP_897_2}
+  {SRCNAME v_mix_yuv2rgb<false>.4 MODELNAME v_mix_yuv2rgb_false_4 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_yuv2rgb_false_4}
+  {SRCNAME {reg<unsigned short>} MODELNAME reg_unsigned_short_s RTLNAME bd_quad_vmix_dp_v_mix_0_0_reg_unsigned_short_s}
+  {SRCNAME AXIvideo2MultiPixStream.5_Pipeline_loop_wait_for_start MODELNAME AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_start RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_start}
+  {SRCNAME AXIvideo2MultiPixStream.5_Pipeline_loop_width MODELNAME AXIvideo2MultiPixStream_5_Pipeline_loop_width RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_5_Pipeline_loop_width}
+  {SRCNAME AXIvideo2MultiPixStream.5_Pipeline_loop_wait_for_eol MODELNAME AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_eol RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_eol}
+  {SRCNAME AXIvideo2MultiPixStream.5 MODELNAME AXIvideo2MultiPixStream_5 RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_5}
+  {SRCNAME v_mix_420_to_422<false>.6_Pipeline_VITIS_LOOP_76_2 MODELNAME v_mix_420_to_422_false_6_Pipeline_VITIS_LOOP_76_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_420_to_422_false_6_Pipeline_VITIS_LOOP_76_2}
+  {SRCNAME v_mix_420_to_422<false>.6 MODELNAME v_mix_420_to_422_false_6 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_420_to_422_false_6}
+  {SRCNAME v_mix_422_to_444<false>.7_Pipeline_VITIS_LOOP_105_2 MODELNAME v_mix_422_to_444_false_7_Pipeline_VITIS_LOOP_105_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_444_false_7_Pipeline_VITIS_LOOP_105_2}
+  {SRCNAME v_mix_422_to_444<false>.7 MODELNAME v_mix_422_to_444_false_7 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_444_false_7}
+  {SRCNAME v_mix_yuv2rgb<false>.8_Pipeline_VITIS_LOOP_897_2 MODELNAME v_mix_yuv2rgb_false_8_Pipeline_VITIS_LOOP_897_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_yuv2rgb_false_8_Pipeline_VITIS_LOOP_897_2}
+  {SRCNAME v_mix_yuv2rgb<false>.8 MODELNAME v_mix_yuv2rgb_false_8 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_yuv2rgb_false_8}
+  {SRCNAME v_mix_upsample<false>.9_Pipeline_VITIS_LOOP_107_2 MODELNAME v_mix_upsample_false_9_Pipeline_VITIS_LOOP_107_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_upsample_false_9_Pipeline_VITIS_LOOP_107_2}
+  {SRCNAME v_mix_upsample<false>.9 MODELNAME v_mix_upsample_false_9 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_upsample_false_9}
+  {SRCNAME {v_mix_core_alpha<false, false>_Pipeline_VITIS_LOOP_456_1} MODELNAME v_mix_core_alpha_false_false_Pipeline_VITIS_LOOP_456_1 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_core_alpha_false_false_Pipeline_VITIS_LOOP_456_1}
+  {SRCNAME {v_mix_core_alpha<false, false>_Pipeline_VITIS_LOOP_465_3} MODELNAME v_mix_core_alpha_false_false_Pipeline_VITIS_LOOP_465_3 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_core_alpha_false_false_Pipeline_VITIS_LOOP_465_3}
+  {SRCNAME {v_mix_core_alpha<false, false>} MODELNAME v_mix_core_alpha_false_false_s RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_core_alpha_false_false_s}
+  {SRCNAME AXIvideo2MultiPixStream.10_Pipeline_loop_wait_for_start MODELNAME AXIvideo2MultiPixStream_10_Pipeline_loop_wait_for_start RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_10_Pipeline_loop_wait_for_start}
+  {SRCNAME AXIvideo2MultiPixStream.10_Pipeline_loop_width MODELNAME AXIvideo2MultiPixStream_10_Pipeline_loop_width RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_10_Pipeline_loop_width}
+  {SRCNAME AXIvideo2MultiPixStream.10_Pipeline_loop_wait_for_eol MODELNAME AXIvideo2MultiPixStream_10_Pipeline_loop_wait_for_eol RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_10_Pipeline_loop_wait_for_eol}
+  {SRCNAME AXIvideo2MultiPixStream.10 MODELNAME AXIvideo2MultiPixStream_10 RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_10}
+  {SRCNAME v_mix_420_to_422<false>.11_Pipeline_VITIS_LOOP_76_2 MODELNAME v_mix_420_to_422_false_11_Pipeline_VITIS_LOOP_76_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_420_to_422_false_11_Pipeline_VITIS_LOOP_76_2}
+  {SRCNAME v_mix_420_to_422<false>.11 MODELNAME v_mix_420_to_422_false_11 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_420_to_422_false_11}
+  {SRCNAME v_mix_422_to_444<false>.12_Pipeline_VITIS_LOOP_105_2 MODELNAME v_mix_422_to_444_false_12_Pipeline_VITIS_LOOP_105_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_444_false_12_Pipeline_VITIS_LOOP_105_2}
+  {SRCNAME v_mix_422_to_444<false>.12 MODELNAME v_mix_422_to_444_false_12 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_444_false_12}
+  {SRCNAME v_mix_yuv2rgb<false>.13_Pipeline_VITIS_LOOP_897_2 MODELNAME v_mix_yuv2rgb_false_13_Pipeline_VITIS_LOOP_897_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_yuv2rgb_false_13_Pipeline_VITIS_LOOP_897_2}
+  {SRCNAME v_mix_yuv2rgb<false>.13 MODELNAME v_mix_yuv2rgb_false_13 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_yuv2rgb_false_13}
+  {SRCNAME v_mix_upsample<false>.14_Pipeline_VITIS_LOOP_107_2 MODELNAME v_mix_upsample_false_14_Pipeline_VITIS_LOOP_107_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_upsample_false_14_Pipeline_VITIS_LOOP_107_2}
+  {SRCNAME v_mix_upsample<false>.14 MODELNAME v_mix_upsample_false_14 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_upsample_false_14}
+  {SRCNAME {v_mix_core_alpha<false, false>.20_Pipeline_VITIS_LOOP_465_3} MODELNAME v_mix_core_alpha_false_false_20_Pipeline_VITIS_LOOP_465_3 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_core_alpha_false_false_20_Pipeline_VITIS_LOOP_465_3}
+  {SRCNAME {v_mix_core_alpha<false, false>.20} MODELNAME v_mix_core_alpha_false_false_20 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_core_alpha_false_false_20}
+  {SRCNAME AXIvideo2MultiPixStream.15_Pipeline_loop_wait_for_start MODELNAME AXIvideo2MultiPixStream_15_Pipeline_loop_wait_for_start RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_15_Pipeline_loop_wait_for_start}
+  {SRCNAME AXIvideo2MultiPixStream.15_Pipeline_loop_width MODELNAME AXIvideo2MultiPixStream_15_Pipeline_loop_width RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_15_Pipeline_loop_width}
+  {SRCNAME AXIvideo2MultiPixStream.15_Pipeline_loop_wait_for_eol MODELNAME AXIvideo2MultiPixStream_15_Pipeline_loop_wait_for_eol RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_15_Pipeline_loop_wait_for_eol}
+  {SRCNAME AXIvideo2MultiPixStream.15 MODELNAME AXIvideo2MultiPixStream_15 RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_15}
+  {SRCNAME v_mix_420_to_422<false>.16_Pipeline_VITIS_LOOP_76_2 MODELNAME v_mix_420_to_422_false_16_Pipeline_VITIS_LOOP_76_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_420_to_422_false_16_Pipeline_VITIS_LOOP_76_2}
+  {SRCNAME v_mix_420_to_422<false>.16 MODELNAME v_mix_420_to_422_false_16 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_420_to_422_false_16}
+  {SRCNAME v_mix_422_to_444<false>.17_Pipeline_VITIS_LOOP_105_2 MODELNAME v_mix_422_to_444_false_17_Pipeline_VITIS_LOOP_105_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_444_false_17_Pipeline_VITIS_LOOP_105_2}
+  {SRCNAME v_mix_422_to_444<false>.17 MODELNAME v_mix_422_to_444_false_17 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_444_false_17}
+  {SRCNAME v_mix_yuv2rgb<false>.18_Pipeline_VITIS_LOOP_897_2 MODELNAME v_mix_yuv2rgb_false_18_Pipeline_VITIS_LOOP_897_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_yuv2rgb_false_18_Pipeline_VITIS_LOOP_897_2}
+  {SRCNAME v_mix_yuv2rgb<false>.18 MODELNAME v_mix_yuv2rgb_false_18 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_yuv2rgb_false_18}
+  {SRCNAME v_mix_upsample<false>.19_Pipeline_VITIS_LOOP_107_2 MODELNAME v_mix_upsample_false_19_Pipeline_VITIS_LOOP_107_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_upsample_false_19_Pipeline_VITIS_LOOP_107_2}
+  {SRCNAME v_mix_upsample<false>.19 MODELNAME v_mix_upsample_false_19 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_upsample_false_19}
+  {SRCNAME {v_mix_core_alpha<false, false>.21_Pipeline_VITIS_LOOP_465_3} MODELNAME v_mix_core_alpha_false_false_21_Pipeline_VITIS_LOOP_465_3 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_core_alpha_false_false_21_Pipeline_VITIS_LOOP_465_3}
+  {SRCNAME {v_mix_core_alpha<false, false>.21} MODELNAME v_mix_core_alpha_false_false_21 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_core_alpha_false_false_21}
+  {SRCNAME AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start MODELNAME AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start}
+  {SRCNAME AXIvideo2MultiPixStream_Pipeline_loop_width MODELNAME AXIvideo2MultiPixStream_Pipeline_loop_width RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width}
+  {SRCNAME AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol MODELNAME AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol}
+  {SRCNAME AXIvideo2MultiPixStream MODELNAME AXIvideo2MultiPixStream RTLNAME bd_quad_vmix_dp_v_mix_0_0_AXIvideo2MultiPixStream}
+  {SRCNAME v_mix_420_to_422<false>_Pipeline_VITIS_LOOP_76_2 MODELNAME v_mix_420_to_422_false_Pipeline_VITIS_LOOP_76_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_420_to_422_false_Pipeline_VITIS_LOOP_76_2}
+  {SRCNAME v_mix_420_to_422<false> MODELNAME v_mix_420_to_422_false_s RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_420_to_422_false_s}
+  {SRCNAME v_mix_422_to_444<false>_Pipeline_VITIS_LOOP_105_2 MODELNAME v_mix_422_to_444_false_Pipeline_VITIS_LOOP_105_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_444_false_Pipeline_VITIS_LOOP_105_2}
+  {SRCNAME v_mix_422_to_444<false> MODELNAME v_mix_422_to_444_false_s RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_444_false_s}
+  {SRCNAME v_mix_yuv2rgb<false>_Pipeline_VITIS_LOOP_897_2 MODELNAME v_mix_yuv2rgb_false_Pipeline_VITIS_LOOP_897_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_yuv2rgb_false_Pipeline_VITIS_LOOP_897_2}
+  {SRCNAME v_mix_yuv2rgb<false> MODELNAME v_mix_yuv2rgb_false_s RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_yuv2rgb_false_s}
+  {SRCNAME v_mix_upsample<false>_Pipeline_VITIS_LOOP_107_2 MODELNAME v_mix_upsample_false_Pipeline_VITIS_LOOP_107_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_upsample_false_Pipeline_VITIS_LOOP_107_2}
+  {SRCNAME v_mix_upsample<false> MODELNAME v_mix_upsample_false_s RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_upsample_false_s}
+  {SRCNAME {v_mix_core_alpha<false, false>.22_Pipeline_VITIS_LOOP_465_3} MODELNAME v_mix_core_alpha_false_false_22_Pipeline_VITIS_LOOP_465_3 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_core_alpha_false_false_22_Pipeline_VITIS_LOOP_465_3}
+  {SRCNAME {v_mix_core_alpha<false, false>.22} MODELNAME v_mix_core_alpha_false_false_22 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_core_alpha_false_false_22}
+  {SRCNAME v_mix_rgb2yuv<false>_Pipeline_VITIS_LOOP_1042_2 MODELNAME v_mix_rgb2yuv_false_Pipeline_VITIS_LOOP_1042_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_rgb2yuv_false_Pipeline_VITIS_LOOP_1042_2}
+  {SRCNAME v_mix_rgb2yuv<false> MODELNAME v_mix_rgb2yuv_false_s RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_rgb2yuv_false_s}
+  {SRCNAME v_mix_444_to_422<false>_Pipeline_VITIS_LOOP_718_2 MODELNAME v_mix_444_to_422_false_Pipeline_VITIS_LOOP_718_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_444_to_422_false_Pipeline_VITIS_LOOP_718_2}
+  {SRCNAME v_mix_444_to_422<false> MODELNAME v_mix_444_to_422_false_s RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_444_to_422_false_s}
+  {SRCNAME v_mix_422_to_420<false>_Pipeline_VITIS_LOOP_508_2 MODELNAME v_mix_422_to_420_false_Pipeline_VITIS_LOOP_508_2 RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_420_false_Pipeline_VITIS_LOOP_508_2}
+  {SRCNAME v_mix_422_to_420<false> MODELNAME v_mix_422_to_420_false_s RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix_422_to_420_false_s}
+  {SRCNAME MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_3233_3 MODELNAME MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_3233_3 RTLNAME bd_quad_vmix_dp_v_mix_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_3233_3}
+  {SRCNAME MultiPixStream2AXIvideo MODELNAME MultiPixStream2AXIvideo RTLNAME bd_quad_vmix_dp_v_mix_0_0_MultiPixStream2AXIvideo}
+  {SRCNAME VMixHlsDataFlowFunction MODELNAME VMixHlsDataFlowFunction RTLNAME bd_quad_vmix_dp_v_mix_0_0_VMixHlsDataFlowFunction
+    SUBMODULES {
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w5_d7_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w5_d7_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnable_val25_c24_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d7_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d7_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerStartX_1_val26_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d8_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d8_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerStartX_2_val27_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d9_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d9_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerStartX_3_val28_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d10_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d10_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerStartX_4_val29_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d7_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d7_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerStartY_1_val30_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d8_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d8_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerStartY_2_val31_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d9_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d9_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerStartY_3_val32_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d10_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d10_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerStartY_4_val33_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w8_d7_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w8_d7_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerScaleFactor_1_val42_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w8_d8_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w8_d8_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerScaleFactor_2_val43_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w8_d9_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w8_d9_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerScaleFactor_3_val44_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w8_d10_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w8_d10_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerScaleFactor_4_val45_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_0_val_c26_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer0Yuv422_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_0_val_c25_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer0Yuv_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_0_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME outLayer0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer1_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_1_val_c29_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_1_val_c42_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_1_val_c58_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer1Yuv422_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_1_val_c28_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_1_val_c41_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_1_val_c57_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer1Yuv_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_1_val_c27_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_1_val_c40_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_1_val_c56_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer1Rgb_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_1_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_1_val_c39_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_1_val_c55_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer1x_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_1_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_1_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME outLayer1_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w5_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w5_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnable_val25_c23_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer2_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_2_val_c32_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_2_val_c46_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_2_val_c62_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer2Yuv422_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_2_val_c31_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_2_val_c45_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_2_val_c61_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer2Yuv_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_2_val_c30_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_2_val_c44_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_2_val_c60_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer2Rgb_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_2_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_2_val_c43_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_2_val_c59_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer2x_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d3_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d3_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_2_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d3_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d3_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_2_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME outLayer2_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w5_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w5_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnable_val25_c22_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer3_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_3_val_c35_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_3_val_c50_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_3_val_c66_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer3Yuv422_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_3_val_c34_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_3_val_c49_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_3_val_c65_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer3Yuv_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_3_val_c33_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_3_val_c48_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_3_val_c64_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer3Rgb_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_3_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_3_val_c47_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_3_val_c63_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer3x_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d4_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d4_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_3_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d4_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d4_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_3_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME outLayer3_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w5_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w5_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnable_val25_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer4_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_4_val_c38_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_4_val_c54_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_4_val_c70_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer4Yuv422_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_4_val_c37_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_4_val_c53_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_4_val_c69_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer4Yuv_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_4_val_c36_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_4_val_c52_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_4_val_c68_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer4Rgb_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w1_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerEnableFlag_4_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_4_val_c51_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_4_val_c67_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME srcLayer4x_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d5_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d5_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerWidth_4_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d5_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w16_d5_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME HwReg_layerHeight_4_val_c_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME outLayer4_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME outYuv_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME out422_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S RTLNAME bd_quad_vmix_dp_v_mix_0_0_fifo_w48_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME out420_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_core_alpha_false_false_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_core_alpha_false_false_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_core_alpha_false_false_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_core_alpha_false_false_20_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_core_alpha_false_false_20_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_core_alpha_false_false_20_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_core_alpha_false_false_21_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_core_alpha_false_false_21_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_core_alpha_false_false_21_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_core_alpha_false_false_22_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_core_alpha_false_false_22_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_core_alpha_false_false_22_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_420_to_422_false_2_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_420_to_422_false_2_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_420_to_422_false_2_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_444_false_3_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_444_false_3_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_422_to_444_false_3_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_yuv2rgb_false_4_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_yuv2rgb_false_4_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_yuv2rgb_false_4_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_420_to_422_false_6_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_420_to_422_false_6_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_420_to_422_false_6_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_444_false_7_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_444_false_7_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_422_to_444_false_7_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_yuv2rgb_false_8_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_yuv2rgb_false_8_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_yuv2rgb_false_8_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_upsample_false_9_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_upsample_false_9_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_upsample_false_9_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_420_to_422_false_11_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_420_to_422_false_11_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_420_to_422_false_11_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_444_false_12_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_444_false_12_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_422_to_444_false_12_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_yuv2rgb_false_13_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_yuv2rgb_false_13_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_yuv2rgb_false_13_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_upsample_false_14_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_upsample_false_14_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_upsample_false_14_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_420_to_422_false_16_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_420_to_422_false_16_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_420_to_422_false_16_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_444_false_17_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_444_false_17_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_422_to_444_false_17_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_yuv2rgb_false_18_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_yuv2rgb_false_18_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_yuv2rgb_false_18_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_upsample_false_19_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_upsample_false_19_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_upsample_false_19_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_420_to_422_false_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_420_to_422_false_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_420_to_422_false_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_444_false_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_444_false_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_422_to_444_false_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_yuv2rgb_false_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_yuv2rgb_false_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_yuv2rgb_false_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_upsample_false_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_upsample_false_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_upsample_false_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_rgb2yuv_false_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_rgb2yuv_false_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_rgb2yuv_false_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_444_to_422_false_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_444_to_422_false_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_444_to_422_false_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_420_false_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_v_mix_422_to_420_false_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_v_mix_422_to_420_false_U0_U}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_start_for_MultiPixStream2AXIvideo_U0 RTLNAME bd_quad_vmix_dp_v_mix_0_0_start_for_MultiPixStream2AXIvideo_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_MultiPixStream2AXIvideo_U0_U}
+    }
+  }
+  {SRCNAME v_mix MODELNAME v_mix RTLNAME bd_quad_vmix_dp_v_mix_0_0_v_mix IS_TOP 1
+    SUBMODULES {
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_sparsemux_11_3_16_1_1 RTLNAME bd_quad_vmix_dp_v_mix_0_0_sparsemux_11_3_16_1_1 BINDTYPE op TYPE sparsemux IMPL compactencoding_dontcare}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_sparsemux_11_3_8_1_1 RTLNAME bd_quad_vmix_dp_v_mix_0_0_sparsemux_11_3_8_1_1 BINDTYPE op TYPE sparsemux IMPL compactencoding_dontcare}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_bitselect_1ns_32ns_32ns_1_1_1 RTLNAME bd_quad_vmix_dp_v_mix_0_0_bitselect_1ns_32ns_32ns_1_1_1 BINDTYPE op TYPE bitselect IMPL auto}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_CTRL_s_axi RTLNAME bd_quad_vmix_dp_v_mix_0_0_CTRL_s_axi BINDTYPE interface TYPE interface_s_axilite}
+      {MODELNAME bd_quad_vmix_dp_v_mix_0_0_regslice_both RTLNAME bd_quad_vmix_dp_v_mix_0_0_regslice_both BINDTYPE interface TYPE adapter IMPL reg_slice}
+    }
+  }
+}

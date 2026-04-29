@@ -1,0 +1,119 @@
+{
+  "0": {
+    "basicblocks": 5,
+    "calls": "4 5",
+    "file": "v_tpg.cpp",
+    "fileloc": 409,
+    "instructions": 88,
+    "loads": {
+      "G": 2,
+      "T": 16
+    },
+    "name": "v_tpg",
+    "stores": {
+      "G": 3
+    },
+    "total_instructions": 1583
+  },
+  "1": {
+    "basicblocks": 20,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1869,
+    "instructions": 123,
+    "loads": {
+      "G": 6,
+      "L": 6
+    },
+    "name": "tpgPatternBox",
+    "stores": {
+      "G": 6,
+      "L": 12
+    },
+    "total_instructions": 123
+  },
+  "2": {
+    "basicblocks": 39,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 759,
+    "instructions": 268,
+    "loads": {
+      "G": 7,
+      "L": 19
+    },
+    "name": "tpgForeground",
+    "stores": {
+      "G": 6,
+      "L": 31
+    },
+    "total_instructions": 346
+  },
+  "3": {
+    "basicblocks": 35,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 919,
+    "instructions": 158,
+    "loads": {
+      "G": 4,
+      "L": 3
+    },
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "G": 2,
+      "L": 12
+    },
+    "total_instructions": 218
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "6 2 3",
+    "file": "v_tpg.cpp",
+    "fileloc": 304,
+    "instructions": 10,
+    "name": "v_tpgHlsDataFlow",
+    "total_instructions": 1494
+  },
+  "6": {
+    "basicblocks": 80,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 536,
+    "instructions": 878,
+    "loads": {
+      "G": 22,
+      "L": 42
+    },
+    "name": "tpgBackground",
+    "stores": {
+      "G": 10,
+      "L": 126
+    },
+    "total_instructions": 920
+  },
+  "7": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1193,
+    "instructions": 39,
+    "loads": {
+      "G": 2
+    },
+    "name": "tpgPatternSolidBlack",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 39
+  }
+}

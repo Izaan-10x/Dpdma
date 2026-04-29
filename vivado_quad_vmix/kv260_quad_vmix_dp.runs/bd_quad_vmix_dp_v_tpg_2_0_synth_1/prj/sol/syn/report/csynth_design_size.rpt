@@ -1,0 +1,73 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                        | Instructions | Description                                                                            |
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                             | 6,365        | After all functions are compiled and linked into a single design                       |
+|               |                             |              |                                                                                        |
+| Unroll/Inline |                             |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                  | 2,794        | user unroll pragmas are applied                                                        |
+|               | (2) simplification          | 2,166        | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                  | 2,063        | user inline pragmas are applied                                                        |
+|               | (4) simplification          | 1,903        | simplification of applied user inline pragmas                                          |
+|               |                             |              |                                                                                        |
+| Array/Struct  |                             |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition         | 1,685        | user array partition pragmas are applied                                               |
+|               | (2) simplification          | 1,653        | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate  | 1,657        | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape           | 1,799        | apply array reshape pragmas                                                            |
+|               | (5) access patterns         | 1,848        | array access pattern optmizations                                                      |
+|               |                             |              |                                                                                        |
+| Performance   |                             |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification     | 1,826        | loop and instruction simplification                                                    |
+|               | (2) parallelization         | 1,583        | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition         | 1,385        | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification          |   995        | simplification of design after performance transformations                             |
+|               |                             |              |                                                                                        |
+| HW Transforms |                             |              | After hardware transfomations                                                          |
+|               | (1) lowering                |   893        | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations           |   826        | high level synthesis optimizations                                                     |
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+
+* Instructions per Function for each Compilation Phase
++--------------------------------------+----------------------+------------------+-----------------+-----------------+-------------+---------------+
+| Function                             | Location             | Compile/Link     | Unroll/Inline   | Array/Struct    | Performance | HW Transforms |
++--------------------------------------+----------------------+------------------+-----------------+-----------------+-------------+---------------+
+| + v_tpg                              | v_tpg.cpp:409        | 6,365            | 1,903           | 1,848           | 995         | 826           |
+|    reg<unsigned short>               | x_hls_utils.h:222    |    1             |    1            |    1            |   1         |   4           |
+|  + v_tpgHlsDataFlow                  | v_tpg.cpp:304        | 6,291            | 1,836           | 1,774           | 906         | 687           |
+|   + tpgBackground                    | v_tpg.cpp:536        | 4,476            | 1,147           | 1,155           | 442         | 280           |
+|      Scalar                          | hls_video_core.h:196 |   10 (2 calls)   |                 |                 |             |               |
+|    + tpgPatternHorizontalRamp        | v_tpg.cpp:1067       |  134             |                 |                 |             |               |
+|       Scalar                         | hls_video_core.h:196 |    5             |                 |                 |             |               |
+|    + tpgPatternVerticalRamp          | v_tpg.cpp:1090       |  142             |                 |                 |             |               |
+|       Scalar                         | hls_video_core.h:196 |    5             |                 |                 |             |               |
+|    + tpgPatternTemporalRamp          | v_tpg.cpp:1115       |  120             |                 |                 |             |               |
+|       Scalar                         | hls_video_core.h:196 |    5             |                 |                 |             |               |
+|    + tpgPatternSolidBlack            | v_tpg.cpp:1193       | 1,932 (14 calls) |  644 (14 calls) |  546 (14 calls) |             |               |
+|       Scalar                         | hls_video_core.h:196 |   70 (14 calls)  |                 |                 |             |               |
+|    + tpgPatternVerticalHorizontal... | v_tpg.cpp:1527       |  139             |                 |                 |             |               |
+|       Scalar                         | hls_video_core.h:196 |    5             |                 |                 |             |               |
+|    + tpgPRBS                         | v_tpg.cpp:1823       | 1,767            |                 |                 |             |               |
+|       Scalar                         | hls_video_core.h:196 |    5             |                 |                 |             |               |
+|   + tpgForeground                    | v_tpg.cpp:759        |  666             |  492            |  369            | 256         | 236           |
+|      Scalar                          | hls_video_core.h:196 |   15 (3 calls)   |                 |                 |             |               |
+|      tpgPatternBox                   | v_tpg.cpp:1869       |  248             |  123            |  123            |             |               |
+|      tpgPatternCrossHair             | v_tpg.cpp:1956       |  144             |                 |                 |             |               |
+|    + tpgPatternMask                  | v_tpg.cpp:1983       |  137             |                 |                 |             |               |
+|       Scalar                         | hls_video_core.h:196 |    5             |                 |                 |             |               |
+|   + MultiPixStream2AXIvideo          | v_tpg.cpp:919        | 1,073            |  187            |  240            | 198         | 159           |
+|      Scalar                          | hls_video_core.h:196 |    5             |                 |                 |             |               |
++--------------------------------------+----------------------+------------------+-----------------+-----------------+-------------+---------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

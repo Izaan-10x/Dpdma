@@ -1,0 +1,189 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'AXIvideo2MultiPixStream_5'" level="0">
+<item name = "Date">Mon Apr 27 12:26:48 2026
+</item>
+<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
+<item name = "Project">prj</item>
+<item name = "Solution">sol (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">6.67 ns, 2.034 ns, 1.80 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">2, 4168806, 13.334 ns, 27.793 ms, 2, 4168806, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_start_fu_186">AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_start, 2, 2, 13.334 ns, 13.334 ns, 1, 1, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_AXIvideo2MultiPixStream_5_Pipeline_loop_width_fu_206">AXIvideo2MultiPixStream_5_Pipeline_loop_width, 3, 1923, 20.001 ns, 12.821 us, 1, 1921, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_eol_fu_234">AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_eol, 2, 2, 13.334 ns, 13.334 ns, 1, 1, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_reg_unsigned_short_s_fu_265">reg_unsigned_short_s, 1, 1, 6.667 ns, 6.667 ns, 1, 1, yes</column>
+<column name="grp_reg_unsigned_short_s_fu_271">reg_unsigned_short_s, 1, 1, 6.667 ns, 6.667 ns, 1, 1, yes</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- loop_height">0, 4168800, 10 ~ 1930, -, -, 0 ~ 2160, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 64, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, 105, 252, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, 0, 155, -</column>
+<column name="Register">-, -, 105, -, -</column>
+<specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="grp_AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_eol_fu_234">AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_eol, 0, 0, 4, 52, 0</column>
+<column name="grp_AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_start_fu_186">AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_start, 0, 0, 4, 38, 0</column>
+<column name="grp_AXIvideo2MultiPixStream_5_Pipeline_loop_width_fu_206">AXIvideo2MultiPixStream_5_Pipeline_loop_width, 0, 0, 69, 158, 0</column>
+<column name="grp_reg_unsigned_short_s_fu_265">reg_unsigned_short_s, 0, 0, 14, 2, 0</column>
+<column name="grp_reg_unsigned_short_s_fu_271">reg_unsigned_short_s, 0, 0, 14, 2, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="i_4_fu_376_p2">+, 0, 0, 19, 12, 1</column>
+<column name="and_ln3150_fu_386_p2">and, 0, 0, 2, 1, 1</column>
+<column name="cmp10302_i_fu_357_p2">icmp, 0, 0, 18, 11, 1</column>
+<column name="icmp_ln3101_fu_371_p2">icmp, 0, 0, 19, 12, 12</column>
+<column name="ap_block_state1">or, 0, 0, 2, 1, 1</column>
+<column name="select_ln3150_fu_440_p3">select, 0, 0, 2, 1, 1</column>
+<column name="xor_ln3150_fu_362_p2">xor, 0, 0, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="HwReg_layerEnableFlag_1_val_c29_blk_n">9, 2, 1, 2</column>
+<column name="HwReg_layerHeight_1_val_c58_blk_n">9, 2, 1, 2</column>
+<column name="HwReg_layerWidth_1_val_c42_blk_n">9, 2, 1, 2</column>
+<column name="ap_NS_fsm">54, 10, 1, 10</column>
+<column name="ap_done">9, 2, 1, 2</column>
+<column name="axi_data_2_fu_114">9, 2, 48, 96</column>
+<column name="axi_last_2_reg_176">9, 2, 1, 2</column>
+<column name="i_fu_118">9, 2, 12, 24</column>
+<column name="real_start">9, 2, 1, 2</column>
+<column name="s_axis_video1_TREADY">20, 4, 1, 4</column>
+<column name="sof_4_reg_164">9, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="HwReg_layerEnableFlag_1_val_read_reg_487">1, 0, 1, 0</column>
+<column name="and_ln3150_reg_559">1, 0, 1, 0</column>
+<column name="ap_CS_fsm">9, 0, 9, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="axi_data_2_fu_114">48, 0, 48, 0</column>
+<column name="axi_last_2_reg_176">1, 0, 1, 0</column>
+<column name="axi_last_4_loc_fu_98">1, 0, 1, 0</column>
+<column name="cmp10302_i_reg_543">1, 0, 1, 0</column>
+<column name="grp_AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_eol_fu_234_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_AXIvideo2MultiPixStream_5_Pipeline_loop_wait_for_start_fu_186_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_AXIvideo2MultiPixStream_5_Pipeline_loop_width_fu_206_ap_start_reg">1, 0, 1, 0</column>
+<column name="i_fu_118">12, 0, 12, 0</column>
+<column name="rows_reg_515">12, 0, 12, 0</column>
+<column name="select_ln3150_reg_570">1, 0, 1, 0</column>
+<column name="sof_4_reg_164">1, 0, 1, 0</column>
+<column name="start_once_reg">1, 0, 1, 0</column>
+<column name="trunc_ln6_reg_534">11, 0, 11, 0</column>
+<column name="xor_ln3150_reg_548">1, 0, 1, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, AXIvideo2MultiPixStream.5, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, AXIvideo2MultiPixStream.5, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, AXIvideo2MultiPixStream.5, return value</column>
+<column name="start_full_n">in, 1, ap_ctrl_hs, AXIvideo2MultiPixStream.5, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, AXIvideo2MultiPixStream.5, return value</column>
+<column name="ap_continue">in, 1, ap_ctrl_hs, AXIvideo2MultiPixStream.5, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, AXIvideo2MultiPixStream.5, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, AXIvideo2MultiPixStream.5, return value</column>
+<column name="start_out">out, 1, ap_ctrl_hs, AXIvideo2MultiPixStream.5, return value</column>
+<column name="start_write">out, 1, ap_ctrl_hs, AXIvideo2MultiPixStream.5, return value</column>
+<column name="s_axis_video1_TDATA">in, 48, axis, s_axis_video1_V_data_V, pointer</column>
+<column name="s_axis_video1_TVALID">in, 1, axis, s_axis_video1_V_dest_V, pointer</column>
+<column name="s_axis_video1_TREADY">out, 1, axis, s_axis_video1_V_dest_V, pointer</column>
+<column name="s_axis_video1_TDEST">in, 1, axis, s_axis_video1_V_dest_V, pointer</column>
+<column name="s_axis_video1_TKEEP">in, 6, axis, s_axis_video1_V_keep_V, pointer</column>
+<column name="s_axis_video1_TSTRB">in, 6, axis, s_axis_video1_V_strb_V, pointer</column>
+<column name="s_axis_video1_TUSER">in, 1, axis, s_axis_video1_V_user_V, pointer</column>
+<column name="s_axis_video1_TLAST">in, 1, axis, s_axis_video1_V_last_V, pointer</column>
+<column name="s_axis_video1_TID">in, 1, axis, s_axis_video1_V_id_V, pointer</column>
+<column name="srcLayer1_din">out, 48, ap_fifo, srcLayer1, pointer</column>
+<column name="srcLayer1_full_n">in, 1, ap_fifo, srcLayer1, pointer</column>
+<column name="srcLayer1_write">out, 1, ap_fifo, srcLayer1, pointer</column>
+<column name="srcLayer1_num_data_valid">in, 3, ap_fifo, srcLayer1, pointer</column>
+<column name="srcLayer1_fifo_cap">in, 3, ap_fifo, srcLayer1, pointer</column>
+<column name="HwReg_layerHeight_1_val">in, 16, ap_none, HwReg_layerHeight_1_val, scalar</column>
+<column name="HwReg_layerWidth_1_val">in, 16, ap_none, HwReg_layerWidth_1_val, scalar</column>
+<column name="HwReg_layerEnableFlag_1_val">in, 1, ap_none, HwReg_layerEnableFlag_1_val, scalar</column>
+<column name="HwReg_layerEnableFlag_1_val_c29_din">out, 1, ap_fifo, HwReg_layerEnableFlag_1_val_c29, pointer</column>
+<column name="HwReg_layerEnableFlag_1_val_c29_full_n">in, 1, ap_fifo, HwReg_layerEnableFlag_1_val_c29, pointer</column>
+<column name="HwReg_layerEnableFlag_1_val_c29_write">out, 1, ap_fifo, HwReg_layerEnableFlag_1_val_c29, pointer</column>
+<column name="HwReg_layerEnableFlag_1_val_c29_num_data_valid">in, 3, ap_fifo, HwReg_layerEnableFlag_1_val_c29, pointer</column>
+<column name="HwReg_layerEnableFlag_1_val_c29_fifo_cap">in, 3, ap_fifo, HwReg_layerEnableFlag_1_val_c29, pointer</column>
+<column name="HwReg_layerWidth_1_val_c42_din">out, 16, ap_fifo, HwReg_layerWidth_1_val_c42, pointer</column>
+<column name="HwReg_layerWidth_1_val_c42_full_n">in, 1, ap_fifo, HwReg_layerWidth_1_val_c42, pointer</column>
+<column name="HwReg_layerWidth_1_val_c42_write">out, 1, ap_fifo, HwReg_layerWidth_1_val_c42, pointer</column>
+<column name="HwReg_layerWidth_1_val_c42_num_data_valid">in, 3, ap_fifo, HwReg_layerWidth_1_val_c42, pointer</column>
+<column name="HwReg_layerWidth_1_val_c42_fifo_cap">in, 3, ap_fifo, HwReg_layerWidth_1_val_c42, pointer</column>
+<column name="HwReg_layerHeight_1_val_c58_din">out, 16, ap_fifo, HwReg_layerHeight_1_val_c58, pointer</column>
+<column name="HwReg_layerHeight_1_val_c58_full_n">in, 1, ap_fifo, HwReg_layerHeight_1_val_c58, pointer</column>
+<column name="HwReg_layerHeight_1_val_c58_write">out, 1, ap_fifo, HwReg_layerHeight_1_val_c58, pointer</column>
+<column name="HwReg_layerHeight_1_val_c58_num_data_valid">in, 3, ap_fifo, HwReg_layerHeight_1_val_c58, pointer</column>
+<column name="HwReg_layerHeight_1_val_c58_fifo_cap">in, 3, ap_fifo, HwReg_layerHeight_1_val_c58, pointer</column>
+</table>
+</item>
+</section>
+</profile>

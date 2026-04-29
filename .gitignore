@@ -56,3 +56,43 @@ CMakeCache.txt
 
 # CMake generated
 **/CMakeLists.txt.user
+# Quad VMix Vivado generated files
+vivado_quad_vmix/*.jou
+vivado_quad_vmix/*.log
+vivado_quad_vmix/*.str
+vivado_quad_vmix/.Xil/
+vivado_quad_vmix/kv260_quad_vmix_dp.cache/
+vivado_quad_vmix/kv260_quad_vmix_dp.gen/
+vivado_quad_vmix/kv260_quad_vmix_dp.hw/
+vivado_quad_vmix/kv260_quad_vmix_dp.ip_user_files/
+vivado_quad_vmix/kv260_quad_vmix_dp.runs/
+vivado_quad_vmix/kv260_quad_vmix_dp.sim/
+
+# Quad VMix Vitis generated build files
+vitis_quad_vmix/platform/zynqmp_fsbl/build/
+vitis_quad_vmix/platform/*/build/
+vitis_quad_vmix/platform/*/libsrc/build_configs/
+vitis_quad_vmix/xdpdma_video_example/src/.cache/
+vitis_quad_vmix/_ide/
+# Quad VMix Vitis generated build files
+vitis_quad_vmix/_ide/
+vitis_quad_vmix/platform/zynqmp_fsbl/build/
+vitis_quad_vmix/platform/zynqmp_fsbl/zynqmp_fsbl_bsp/
+vitis_quad_vmix/platform/*/build/
+vitis_quad_vmix/platform/*/libsrc/build_configs/
+vitis_quad_vmix/xdpdma_video_example/_ide/
+vitis_quad_vmix/xdpdma_video_example/src/.cache/
+vitis_quad_vmix/xdpdma_video_example/compile_commands.json
+vitis_quad_vmix/xdpdma_video_example/src/compile_commands.json
+vitis_quad_vmix/platform/*
+
+
+# Old vitis baseline build files
+vitis/platform/zynqmp_fsbl/build/
+vitis/platform/*/build/
+vitis/platform/*/libsrc/build_configs/
+vitis/xdpdma_video_example/src/.cache/
+vitis/_ide/
+
+# Vivado cache
+vivado_quad_vmix/kv260_quad_vmix_dp.cache/
