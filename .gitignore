@@ -96,3 +96,7 @@ vitis/_ide/
 
 # Vivado cache
 vivado_quad_vmix/kv260_quad_vmix_dp.cache/
+vivado_quad_vmix/kv260_quad_vmix_dp.gen/
+vivado_quad_vmix/kv260_quad_vmix_dp.ip_user_files/
+vivado_quad_vmix/kv260_quad_vmix_dp.runs/
+vivado_quad_vmix/kv260_quad_vmix_dp.cache/
